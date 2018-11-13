@@ -1,0 +1,53 @@
+	#container1 {
+		margin-left: auto;
+		margin-right: auto;
+		border: 2px solid;
+		width: 60%;
+		height: 600px;
+	}
+	
+	#title {
+		text-align: center;
+		font-size: 50pt;
+		letter-spacing: 0.1em;
+	}
+	
+	#setting1 {
+		margin-left: auto;
+		margin-right: auto;
+		border: 1px solid;
+		width: 35%;
+		height: 50px;
+		text-align: center;
+	}
+	
+	#setting2 {
+		margin-left: auto;
+		margin-right: auto;
+		border: 1px solid;
+		width: 35%;
+		height: 50px;
+		margin-top: 50px;
+		text-align: center;
+	}
+	
+	#setting3 {
+		margin-left: auto;
+		margin-right: auto;
+		border: 1px solid;
+		width: 35%;
+		height: 50px;
+		margin-top: 50px;
+		text-align: center;
+	}
+	
+	#home {
+		border-radius: 100%;
+		border: 1px solid;
+		width: 80px;
+		height: 80px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 30px;
+		text-align: center;
+	}

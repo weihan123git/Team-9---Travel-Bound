@@ -1,0 +1,56 @@
+	#container1 {
+		margin-left: auto;
+		margin-right: auto;
+		border: 2px solid;
+		width: 60%;
+		height: 700px;
+	}
+	
+	#title {
+		text-align: center;
+		font-size: 50pt;
+		letter-spacing: 0.1em;
+		margin-top: -20px;
+	}
+	
+	#container2 {
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: -1.5%;
+		border: 2px solid;
+		width: 60%;
+		height: 400px;
+	}
+	
+	#setting {
+		border-radius: 100%;
+		border: 1px solid;
+		width: 80px;
+		float: left;
+		height: 80px;
+		margin-left: 22%;
+		margin-top: 30px;
+	}
+	
+	#new {
+		border-radius: 100%;
+		border: 1px solid;
+		width: 80px;
+		height: 80px;
+		float: left;
+		margin-left: 15%;
+		margin-top: 30px;
+	}
+	
+	#manage {
+		border-radius: 100%;
+		border: 1px solid;
+		width: 80px;
+		height: 80px;
+		float: right;
+		margin-right: 22%;
+		margin-top: 30px;
+	}
+	
+	
+		
