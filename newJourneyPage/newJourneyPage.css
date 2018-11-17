@@ -1,4 +1,6 @@
-	@import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC');
+	@import url('https://fonts.googleapis.com/css?family=Salsa');
+	@import url('https://fonts.googleapis.com/css?family=Handlee');
+	
 	#container {
 	width: 60%;
 	height: 600px;
@@ -8,9 +10,8 @@
 	
 	#heading {
 	text-align: center;
-	border: 2px solid blue;
-	font-family: 'Noto Sans TC', sans-serif;
-	font-size: 35pt;
+	font-family: 'Salsa', cursive;
+	font-size: 37pt;
 	}
 	
 	#location{
@@ -41,6 +42,11 @@
 	float:left;
 	}
 	
+	#contry {
+		font-family: 'Handlee', cursive;
+		font-size: 11pt;
+	}
+	
 	input[type=submit] {
 		height: 80px;
 		width: 80px;
@@ -48,90 +54,97 @@
 		-webkit-border-radius: 50%;
 		border-radius: 50%;
 	}
-@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
 
-#container {
-  width: 60%;
-  height: 600px;
-  border: 2px solid red;
-  margin: 0 20% 0 20%;
-}
-
-#background{
- width: 100%;
- background-color: #42e8f4;
- background-repeat: no-repeat;
- background-size: cover;
-
-}
-
-#heading {
-  text-align: center;
-  border: 2px solid blue;
-  font-family: 'Indie Flower', cursive;
-  font-size: 35pt;
-}
-
-#formDiv {
-  margin: auto;
-  width: 50%;
-}
-
-#CountryDiv{
-  margin: 30px 0 0 25%;
-}
-
-#CurrencyDiv{
-  margin: 30px 0 0 25%;
-}
-
-#date1Div{
-  margin: 30px 0 0 0;
-    text-align: center;
-}
-
-#date2Div{
-  margin: 30px 0 0 25%;
-}
-
-
-
-#buttonDiv{
-  margin: 30px 0 0 35%;
-}
-input[type=submit] {
-    height: 80px;
-    width: 80px;
-    cursor:pointer;
-    -webkit-border-radius: 50%;
-    border-radius: 50%;
-}
-
-
-input[type=date]{
-  height: 50px;
-  cursor:pointer;
-}
-/**
-
-input[type=date]::-webkit-inner-spin-button {
-    -webkit-appearance: none;
-    display: none;
-}
-
-
-
-input[type=date]::-webkit-calendar-picker-indicator {
-    -webkit-appearance: none;
-    display: none;
-}
-**/
-::-webkit-datetime-edit { padding: 1em; }
-::-webkit-datetime-edit-fields-wrapper { background: silver; }
-::-webkit-datetime-edit-text { color: red; padding: 0 0.3em; }
-::-webkit-datetime-edit-month-field { color: blue; }
-::-webkit-datetime-edit-day-field { color: green; }
-::-webkit-datetime-edit-year-field { color: purple; }
-::-webkit-inner-spin-button { display: none; }
-::-webkit-calendar-picker-indicator { background: orange; }
+	#container {
+	width: 60%;
+	height: 600px;
+	border: 2px solid red;
+	margin: 0 20% 0 20%;
+	}
+	
+	#background{
+	width: 100%;
+	background-color: #42e8f4;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+	}
+	
+	#heading {
+		text-align: center;
+		font-family: 'Salsa', cursive;
+		font-size: 35pt;
+	}
+	
+	#formDiv {
+		margin: auto;
+		width: 50%;
+	}
+	
+	#CountryDiv{
+		margin: 30px 0 0 32%;
+	}
+	
+	#CurrencyDiv{
+		margin: 30px 0 0 30%;
+		font-family: 'Handlee', cursive;
+		font-size: 11pt;
+	
+	}
+	
+	#date1Div{
+		margin: 30px 10% 0 0;
+		text-align: center;
+	}
+	
+	#date2Div{
+		margin: 30px 0 0 32%;
+	}
+	
+	
+	
+	#buttonDiv{
+		margin: 30px 0 0 35%;
+	}
+	
+	#begin {
+		font-family: 'Handlee', cursive;
+		letter-spacing: 0.1em;
+		font-size: 13pt;
+	}
+	input[type=submit] {
+		height: 80px;
+		width: 80px;
+		cursor:pointer;
+		-webkit-border-radius: 50%;
+		border-radius: 50%;
+	}
+	
+	
+	input[type=date]{
+		height: 50px;
+		cursor:pointer;
+	}
+	/**
+	
+	input[type=date]::-webkit-inner-spin-button {
+		-webkit-appearance: none;
+		display: none;
+	}
+	
+	
+	
+	input[type=date]::-webkit-calendar-picker-indicator {
+		-webkit-appearance: none;
+		display: none;
+	}
+	**/
+	::-webkit-datetime-edit { padding: 1em; }
+	::-webkit-datetime-edit-fields-wrapper { background: silver; }
+	::-webkit-datetime-edit-text { color: red; padding: 0 0.3em; }
+	::-webkit-datetime-edit-month-field { color: blue; }
+	::-webkit-datetime-edit-day-field { color: green; }
+	::-webkit-datetime-edit-year-field { color: purple; }
+	::-webkit-inner-spin-button { display: none; }
+	::-webkit-calendar-picker-indicator { background: orange; }
  

@@ -1,4 +1,5 @@
-	@import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC');
+	@import url('https://fonts.googleapis.com/css?family=Salsa');
+	@import url('https://fonts.googleapis.com/css?family=Handlee');
 	#container1 {
 		margin-left: auto;
 		margin-right: auto;
@@ -9,38 +10,41 @@
 	
 	#title {
 		text-align: center;
-		font-family: 'Noto Sans TC', sans-serif;
-		font-size: 35pt;
+		font-family: 'Salsa', cursive;
+		font-size: 37pt;
 		letter-spacing: 0.1em;
 	}
 	
 	#setting1 {
-		margin-left: auto;
-		margin-right: auto;
+		margin: 0 35% 0 35%;
+		width: 30%;
 		border: 1px solid;
-		width: 35%;
 		height: 50px;
 		text-align: center;
+		font-family: 'Handlee', cursive;
+		font-size: 11pt;
 	}
 	
 	#setting2 {
-		margin-left: auto;
-		margin-right: auto;
+		margin: 0 35% 0 35%;
+		width: 30%;
 		border: 1px solid;
-		width: 35%;
 		height: 50px;
 		margin-top: 50px;
 		text-align: center;
+		font-family: 'Handlee', cursive;
+		font-size: 11pt;
 	}
 	
 	#setting3 {
-		margin-left: auto;
-		margin-right: auto;
+		margin: 0 35% 0 35%;
+		width: 30%;
 		border: 1px solid;
-		width: 35%;
 		height: 50px;
 		margin-top: 50px;
 		text-align: center;
+		font-family: 'Handlee', cursive;
+		font-size: 11pt;
 	}
 	
 	#home {

@@ -1,5 +1,5 @@
-	@import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC');
-	
+	@import url('https://fonts.googleapis.com/css?family=Salsa');
+	@import url('https://fonts.googleapis.com/css?family=Handlee');	
 	#container{
         border: 2px solid black;
         height: 600px;
@@ -8,14 +8,12 @@
     }
 
     #titleDiv{
-		font-family: 'Noto Sans TC', sans-serif;
-		font-size: 35pt;
-        height: 50px;
+		font-family: 'Salsa', cursive;
+		font-size: 37pt;
         width: 40%;
         margin: 0 30% 0 30%;
         text-align: center;
 		letter-spacing: 0.1em;
-        margin-top: 5%;
     }
 
     #imageBox{
@@ -23,40 +21,56 @@
         height: 50%;
         width: 60%;
         margin: 0 20% 0 20%;
-        margin-top: 5%;
     }
 
-    #buttonContainer{
-        height: 15%;
-        width: 60%;
-        margin: 0 20% 0 20%;
-        text-align: center;
-        margin-top: 5%;
-    }
 
     #journeyDiv{
-        border: 2px solid black;
-        border-radius: 50%;
-        float: left;
-        height: 80%;
-        width: 15%;
-        margin: 2px 0 0 0;
+        border-radius: 100%;
+		border: 1px solid;
+		width: 9%;
+		float: left;
+		height: 80px;
+		margin-left: 22%;
+		margin-top: 30px;
     }
 
     #newEntryDiv{
-        border: 2px solid black;
-        border-radius: 50%;
-        float: left;
-        height: 80%;
-        width: 15%;
-        margin: 2px 25% 0 25%;
+        border-radius: 100%;
+		border: 1px solid;
+		width: 9%;
+		height: 80px;
+		float: left;
+		margin-left: 15%;
+		margin-top: 30px;
     }
 
     #settingsDiv{
-        border: 2px solid black;
-        border-radius: 50%;
-        float: right;
-        height: 80%;
-        width: 15%;
-        margin: 2px 0 0 0;
+        border-radius: 100%;
+		border: 1px solid;
+		width: 9%;
+		height: 80px;
+		float: right;
+		margin-right: 22%;
+		margin-top: 30px;
     }
+	
+	#journ {
+		font-family: 'Handlee', cursive;
+		font-size: 11pt;
+		text-align: center;
+		margin-top: 22px;
+	}
+	
+	#enty {
+		font-family: 'Handlee', cursive;
+		font-size: 11pt;
+		text-align: center;
+		margin-top: 22px;
+	}
+	
+	#set {
+		font-family: 'Handlee', cursive;
+		font-size: 11pt;
+		text-align: center;
+		margin-top: 22px;
+	}
