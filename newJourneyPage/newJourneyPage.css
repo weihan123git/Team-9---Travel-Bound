@@ -1,47 +1,50 @@
-#container {
-  width: 60%;
-  height: 600px;
-  border: 2px solid red;
-  margin: 0 20% 0 20%;
-}
-
-#heading {
-  text-align: center;
-  border: 2px solid blue;
-}
-
-#location{
-  float:left;
-  margin: 60px 0 0 40%;
-  width: 100%;
-}
-
-#currency{
-  float:left;
-  width: 100%;
-  margin: 60px 0 0 38%;
-}
-
-#endDate{
-  float:left;
-  width: 40%;
-  display: inline-block;
-}
-
-#starDate{
-  float:left;
-  width: 40%;
-  display:inline-block;
-}
-
-#begin{
-  float:left;
-}
-
-input[type=submit] {
-    height: 80px;
-    width: 80px;
-    cursor:pointer;
-    -webkit-border-radius: 50%;
-    border-radius: 50%;
-}
+	@import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC');
+	#container {
+	width: 60%;
+	height: 600px;
+	border: 2px solid red;
+	margin: 0 20% 0 20%;
+	}
+	
+	#heading {
+	text-align: center;
+	border: 2px solid blue;
+	font-family: 'Noto Sans TC', sans-serif;
+	font-size: 35pt;
+	}
+	
+	#location{
+	float:left;
+	margin: 60px 0 0 40%;
+	width: 100%;
+	}
+	
+	#currency{
+	float:left;
+	width: 100%;
+	margin: 60px 0 0 38%;
+	}
+	
+	#endDate{
+	float:left;
+	width: 40%;
+	display: inline-block;
+	}
+	
+	#starDate{
+	float:left;
+	width: 40%;
+	display:inline-block;
+	}
+	
+	#begin{
+	float:left;
+	}
+	
+	input[type=submit] {
+		height: 80px;
+		width: 80px;
+		cursor:pointer;
+		-webkit-border-radius: 50%;
+		border-radius: 50%;
+	}
