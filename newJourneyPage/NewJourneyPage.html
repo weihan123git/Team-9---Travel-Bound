@@ -1,19 +1,21 @@
-<!DOCTYPE html>
+  <!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="utf-8">
         <meta name="author" content="Team 9">
         <meta name="description" content=".">
-         <link rel ="stylesheet" href ="newJourneyPage.css">
-    <title>New Journey Page</title>
+        <link rel ="stylesheet" href ="newJourneyPage.css">
+
+        <title>New Journey Page</title>
     </head>
-    <body>
+    <body id ="background">
         <div id ="container">
             <div id="heading">
-              <h1>New Journey</h1>
+              <p>New Journey</p>
             </div>
+            <div id = "formDiv">
             <form action="place_holder" method="post">
-                <div id ="location">
+                <div id ="CountryDiv">
                   <select name="country">
                   <option value="">Country...</option>
                   <option value="AF">Afghanistan</option>
@@ -23,18 +25,20 @@
                   <option value="AD">Andorra</option>
                   </select>
                 </div>
-                <div id = "currency">
+                <div id="CurrencyDiv">
                     <label for="country">currency lable placeholder</label>
                 </div>
-                <div id="startDate">
+                <div id ="date1Div">
                     <input type="date" name="startdate" placeholder="startdate" required="required">
-                </div>
-                <div id="endDate">
+               </div>
+                <div id="date2Div">
+
                    <input type="date" name="endDate" placeholder="endDate" required="required">
                 </div>
-                <div id="begin">
+                <div id ="buttonDiv">
                   <input name="submit" value="begin" type="submit"/>
                 </div>
+              </div>
             </form>
         </div>
     </body>
