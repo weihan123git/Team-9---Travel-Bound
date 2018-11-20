@@ -1,52 +1,52 @@
 	@import url('https://fonts.googleapis.com/css?family=Salsa');
 	@import url('https://fonts.googleapis.com/css?family=Handlee');
-	
+
 	#container {
 	width: 60%;
 	height: 600px;
 	border: 2px solid red;
 	margin: 0 20% 0 20%;
 	}
-	
+
 	#heading {
 	text-align: center;
 	font-family: 'Salsa', cursive;
 	font-size: 37pt;
 	}
-	
+
 	#location{
 	float:left;
 	margin: 60px 0 0 40%;
 	width: 100%;
 	}
-	
+
 	#currency{
 	float:left;
 	width: 100%;
 	margin: 60px 0 0 38%;
 	}
-	
+
 	#endDate{
 	float:left;
 	width: 40%;
 	display: inline-block;
 	}
-	
+
 	#starDate{
 	float:left;
 	width: 40%;
 	display:inline-block;
 	}
-	
+
 	#begin{
 	float:left;
 	}
-	
+
 	#contry {
 		font-family: 'Handlee', cursive;
 		font-size: 11pt;
 	}
-	
+
 	input[type=submit] {
 		height: 80px;
 		width: 80px;
@@ -61,52 +61,54 @@
 	border: 2px solid red;
 	margin: 0 20% 0 20%;
 	}
-	
+
 	#background{
 	width: 100%;
-	background-color: #42e8f4;
 	background-repeat: no-repeat;
 	background-size: cover;
-	
+
 	}
-	
+
 	#heading {
 		text-align: center;
 		font-family: 'Salsa', cursive;
 		font-size: 35pt;
 	}
-	
+
 	#formDiv {
 		margin: auto;
 		width: 50%;
 	}
-	
+
 	#CountryDiv{
 		margin: 30px 0 0 32%;
 	}
-	
+
 	#CurrencyDiv{
 		margin: 30px 0 0 30%;
 		font-family: 'Handlee', cursive;
 		font-size: 11pt;
-	
+
 	}
-	
+
 	#date1Div{
-		margin: 30px 10% 0 0;
+		margin: 30px 0% 0 0;
 		text-align: center;
+		font-family: 'Handlee', cursive;
 	}
-	
+
 	#date2Div{
-		margin: 30px 0 0 32%;
+		margin: 30px 0 0 0%;
+		text-align: center;
+		font-family: 'Handlee', cursive;
 	}
-	
-	
-	
+
+
+
 	#buttonDiv{
-		margin: 30px 0 0 35%;
+		margin: 30px 0 0 38%;
 	}
-	
+
 	#begin {
 		font-family: 'Handlee', cursive;
 		letter-spacing: 0.1em;
@@ -119,21 +121,21 @@
 		-webkit-border-radius: 50%;
 		border-radius: 50%;
 	}
-	
-	
+
+
 	input[type=date]{
 		height: 50px;
 		cursor:pointer;
 	}
 	/**
-	
+
 	input[type=date]::-webkit-inner-spin-button {
 		-webkit-appearance: none;
 		display: none;
 	}
-	
-	
-	
+
+
+
 	input[type=date]::-webkit-calendar-picker-indicator {
 		-webkit-appearance: none;
 		display: none;
@@ -147,4 +149,3 @@
 	::-webkit-datetime-edit-year-field { color: purple; }
 	::-webkit-inner-spin-button { display: none; }
 	::-webkit-calendar-picker-indicator { background: orange; }
- 
