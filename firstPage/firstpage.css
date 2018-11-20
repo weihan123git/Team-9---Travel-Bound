@@ -1,5 +1,6 @@
 	@import url('https://fonts.googleapis.com/css?family=Salsa');
-	@import url('https://fonts.googleapis.com/css?family=Handlee');	
+	@import url('https://fonts.googleapis.com/css?family=Handlee');
+	
 	#container{
         border: 2px solid black;
         height: 600px;
@@ -32,6 +33,7 @@
 		height: 80px;
 		margin-left: 22%;
 		margin-top: 30px;
+		background-image: url(../images/journey.png);
     }
 
     #newEntryDiv{
