@@ -29,6 +29,7 @@
 		height: 80px;
 		margin-left: 22%;
 		margin-top: 30px;
+		background-image: url(../images/setting.png);
 	}
 	
 	#new {
@@ -39,6 +40,7 @@
 		float: left;
 		margin-left: 15%;
 		margin-top: 30px;
+		background-image: url(../images/add.png);
 	}
 	
 	#manage {
@@ -49,6 +51,7 @@
 		float: right;
 		margin-right: 22%;
 		margin-top: 30px;
+		background-image: url(../images/manage.png);
 	}
 	
 	
