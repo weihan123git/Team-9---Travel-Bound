@@ -43,6 +43,8 @@
 		margin-left: 22%;
 		margin-top: 30px;
 		background-image: url(../images/journey.png);
+		border: 2px solid red;
+		cursor:pointer;
     }
 
     #newEntryDiv{
@@ -55,6 +57,8 @@
 		margin-left: 15%;
 		margin-top: 30px;
 		background-image: url(../images/add.png);
+		border: 2px solid red;
+		cursor:pointer;
     }
 
     #settingsDiv{
@@ -67,17 +71,10 @@
 		margin-right: 22%;
 		margin-top: 30px;
 		background-image: url(../images/setting.png);
+		border: 2px solid red;
+		cursor:pointer;
     }
 	
-	#settingsDiv:hover {
-		border: 2px solid red;
-	}	
-	#journeyDiv:hover {
-		border: 2px solid red;
-	}
-	#newEntryDiv:hover {
-		border: 2px solid red;
-	}
 	
 	#journ {
 		font-family: 'Handlee', cursive;

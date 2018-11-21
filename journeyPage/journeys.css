@@ -2,14 +2,14 @@
 	@import url('https://fonts.googleapis.com/css?family=Handlee');
 	
 	body {
-		background-image: url(../images/lisbon_background_new.jpg);
+		background-image: url(../images/torre.jpg);
 	}
 	#container1 {
 		margin: 0 20% 0 20%;
 		border: 2px solid;
 		width: 60%;
 		height: 600px;
-		background-color: rgba(36, 36, 36, 0.7);
+		background-color: rgba(125,125,125,0.3);
 		border-radius: 2%;
 	}
 	
