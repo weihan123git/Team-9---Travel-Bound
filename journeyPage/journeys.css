@@ -1,22 +1,31 @@
 	@import url('https://fonts.googleapis.com/css?family=Salsa');
 	@import url('https://fonts.googleapis.com/css?family=Handlee');
+	
+	body {
+		background-image: url(../images/lisbon_background_new.jpg);
+	}
 	#container1 {
 		margin: 0 20% 0 20%;
 		border: 2px solid;
 		width: 60%;
 		height: 600px;
+		background-color: rgba(36, 36, 36, 0.7);
+		border-radius: 2%;
 	}
 	
 	#title {
 		text-align: center;
 		font-family: 'Salsa', cursive;
+		color: #FFFFFF;
 		font-size: 37pt;
 		letter-spacing: 0.1em;
+		margin-top: -35px;
 	}
 	
 	#container2 {
 		margin: 0 20% 0 20%;
-		border: 2px solid;
+		border: 2px solid #FFFFFF;
+		border-radius: 5%;
 		width: 60%;
 		height: 50%;
 	}
@@ -28,7 +37,7 @@
 		float: left;
 		height: 80px;
 		margin-left: 22%;
-		margin-top: 30px;
+		margin-top: 25px;
 		background-image: url(../images/setting.png);
 	}
 	
@@ -39,7 +48,7 @@
 		height: 80px;
 		float: left;
 		margin-left: 15%;
-		margin-top: 30px;
+		margin-top: 25px;
 		background-image: url(../images/add.png);
 	}
 	
@@ -50,9 +59,47 @@
 		height: 80px;
 		float: right;
 		margin-right: 22%;
-		margin-top: 30px;
+		margin-top: 25px;
 		background-image: url(../images/manage.png);
 	}
 	
+	#setting:hover {
+		border: 2px solid red;
+	}	
+	#new:hover {
+		border: 2px solid red;
+	}
+	#manage:hover {
+		border: 2px solid red;
+	}
+	#def1 {
+		letter-spacing: 0.1em;
+		font-family: 'Handlee', cursive;
+		float: left;
+		width: 15%;
+		margin-left: 13.8%;
+		margin-top: 120px;
+		position: absolute;
+		color: #FFFFFF;
+	}
+	#def2 {
+		letter-spacing: 0.1em;
+		font-family: 'Handlee', cursive;
+		float: left;
+		width: 15%;
+		margin-left: 27%;
+		margin-top: 120px;
+		position: absolute;
+		color: #FFFFFF;
+	}
+	#def3 {
+		letter-spacing: 0.1em;
+		font-family: 'Handlee', cursive;
+		float: left;
+		margin-left: 42%;
+		margin-top: 120px;
+		position: absolute;	
+		color: #FFFFFF;
+	}
 	
 		

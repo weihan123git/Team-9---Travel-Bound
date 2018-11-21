@@ -1,16 +1,16 @@
 	@import url('https://fonts.googleapis.com/css?family=Salsa');
 	@import url('https://fonts.googleapis.com/css?family=Handlee');
 	
+	body {
+		background-image: url(../images/lisbon_background_new.jpg);
+	}
+	
 	#container{
         height: 600px;
         width: 60%;
 		margin: 0 20% 0 20%;
 		background-color: rgba(36, 36, 36, 0.7);
 		border-radius: 2%;
-	}
-
-	body {
-		background-image: url(../images/lisbon_background_new.jpg);
 	}
 
     #titleDiv{
@@ -24,7 +24,7 @@
     }
 
     #imageBox{
-		border: 2px solid white;
+		border: 2px solid #FFFFFF;
 		border-radius: 5%;
 		overflow: hidden;
         height: 50%;
@@ -72,6 +72,12 @@
 	#settingsDiv:hover {
 		border: 2px solid red;
 	}	
+	#journeyDiv:hover {
+		border: 2px solid red;
+	}
+	#newEntryDiv:hover {
+		border: 2px solid red;
+	}
 	
 	#journ {
 		font-family: 'Handlee', cursive;
@@ -92,4 +98,32 @@
 		font-size: 11pt;
 		text-align: center;
 		margin-top: 22px;
+	}
+	
+	#def1 {
+		letter-spacing: 0.1em;
+		font-family: 'Handlee', cursive;
+		color: #FFFFFF;
+		float: left;
+		width: 20%;
+		margin-left: 23.5%;
+		margin-top: 15px;
+	}
+	#def2 {
+		letter-spacing: 0.1em;
+		font-family: 'Handlee', cursive;
+		color: #FFFFFF;
+		float: left;
+		width: 20%;
+		margin-left: 2%;
+		margin-top: 15px;
+	}
+	#def3 {
+		letter-spacing: 0.1em;
+		font-family: 'Handlee', cursive;
+		color: #FFFFFF;
+		float: left;
+		width: 20%;
+		margin-left: 4.8%;
+		margin-top: 15px;
 	}
