@@ -4,75 +4,38 @@
 	#container {
 	width: 60%;
 	height: 600px;
-	border: 2px solid red;
+	border-radius: 2%;
+	background-color: rgba(36, 36, 36, 0.7);
 	margin: 0 20% 0 20%;
 	}
 
-	#heading {
-	text-align: center;
-	font-family: 'Salsa', cursive;
-	font-size: 37pt;
-	}
-
-	#location{
-	float:left;
-	margin: 60px 0 0 40%;
-	width: 100%;
-	}
-
-	#currency{
-	float:left;
-	width: 100%;
-	margin: 60px 0 0 38%;
+	body {
+		background-image: url(../images/lisbon_background_new.jpg);
 	}
 
 	#endDate{
-	float:left;
-	width: 40%;
-	display: inline-block;
+		float: left;
+		width: 40%;
+		display: inline-block;
 	}
 
 	#starDate{
-	float:left;
-	width: 40%;
-	display:inline-block;
-	}
-
-	#begin{
-	float:left;
-	}
-
-	#contry {
-		font-family: 'Handlee', cursive;
-		font-size: 11pt;
-	}
-
-	input[type=submit] {
-		height: 80px;
-		width: 80px;
-		cursor:pointer;
-		-webkit-border-radius: 50%;
-		border-radius: 50%;
-	}
-
-	#container {
-	width: 60%;
-	height: 600px;
-	border: 2px solid red;
-	margin: 0 20% 0 20%;
-	background-color: white;
+		float: left;
+		width: 40%;
+		display:inline-block;
 	}
 
 	#background{
-	width: 100%;
-	background-repeat: no-repeat;
-	background-size: cover;
+		width: 100%;
+		background-repeat: no-repeat;
+		background-size: cover;
 	}
 
 	#heading {
 		text-align: center;
 		font-family: 'Salsa', cursive;
 		font-size: 35pt;
+		color: white;
 	}
 
 	#formDiv {
@@ -85,25 +48,25 @@
 	}
 
 	#CurrencyDiv{
+		color: #FFFFFF;
 		margin: 30px 0 0 30%;
 		font-family: 'Handlee', cursive;
-		font-size: 11pt;
-
+		font-size: 15pt;
 	}
 
 	#date1Div{
 		margin: 30px 0% 0 0;
+		color: white;
 		text-align: center;
 		font-family: 'Handlee', cursive;
 	}
 
 	#date2Div{
 		margin: 30px 0 0 0%;
+		color: white;
 		text-align: center;
 		font-family: 'Handlee', cursive;
 	}
-
-
 
 	#buttonDiv{
 		margin: 30px 0 0 38%;
@@ -114,6 +77,7 @@
 		letter-spacing: 0.1em;
 		font-size: 13pt;
 	}
+
 	input[type=submit] {
 		height: 80px;
 		width: 80px;
@@ -127,7 +91,6 @@
 	 vertical-align: middle;
 	}
 
-
 	input[type=date]{
 		height: 50px;
 		cursor:pointer;
@@ -138,8 +101,6 @@
 		-webkit-appearance: none;
 		display: none;
 	}
-
-
 
 	input[type=date]::-webkit-calendar-picker-indicator {
 		-webkit-appearance: none;

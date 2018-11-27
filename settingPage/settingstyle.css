@@ -1,15 +1,22 @@
 	@import url('https://fonts.googleapis.com/css?family=Salsa');
 	@import url('https://fonts.googleapis.com/css?family=Handlee');
+	
+	body {
+		background-image: url(../images/chiado.jpg);
+	}
 	#container1 {
 		margin-left: auto;
 		margin-right: auto;
 		border: 2px solid;
 		width: 60%;
 		height: 600px;
+		background-color: rgba(0,0,255,0.3);
+		border-radius: 2%;
 	}
 	
 	#title {
 		text-align: center;
+		color: #FFFFFF;
 		font-family: 'Salsa', cursive;
 		font-size: 37pt;
 		letter-spacing: 0.1em;
@@ -18,7 +25,9 @@
 	#setting1 {
 		margin: 0 35% 0 35%;
 		width: 30%;
-		border: 1px solid;
+		border: 1px solid #FFFFFF;
+		color: #FFFFFF;
+		border-radius: 8%;
 		height: 50px;
 		text-align: center;
 		font-family: 'Handlee', cursive;
@@ -28,7 +37,9 @@
 	#setting2 {
 		margin: 0 35% 0 35%;
 		width: 30%;
-		border: 1px solid;
+		border: 1px solid #FFFFFF;
+		color: #FFFFFF;
+		border-radius: 8%;
 		height: 50px;
 		margin-top: 50px;
 		text-align: center;
@@ -39,12 +50,18 @@
 	#setting3 {
 		margin: 0 35% 0 35%;
 		width: 30%;
-		border: 1px solid;
+		border: 1px solid #FFFFFF;
+		color: #FFFFFF;
+		border-radius: 8%;
 		height: 50px;
 		margin-top: 50px;
 		text-align: center;
 		font-family: 'Handlee', cursive;
 		font-size: 11pt;
+	}
+	
+	#setting3:hover {
+		background-color: grey;
 	}
 	
 	#home {
@@ -57,4 +74,16 @@
 		margin-top: 30px;
 		text-align: center;
 		background-image: url(../images/home.png);
+	}
+	#home:hover {
+		border: 2px solid red;
+	}
+	#def1 {
+		letter-spacing: 0.1em;
+		font-family: 'Handlee', cursive;
+		float: left;
+		width: 15%;
+		margin-left: 47.7%;
+		margin-top: 10px;
+		color: #FFFFFF;
 	}
