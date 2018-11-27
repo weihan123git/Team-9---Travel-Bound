@@ -14,7 +14,7 @@
               <p>New Journey</p>
             </div>
             <div id = "formDiv">
-            <form action="place_holder" method="post">
+            <form action="../journeyPage/journeys.html">
                 <div id ="CountryDiv">
                   <select name="country" id="selectCountry" onchange="functionCountry()">
                   <option value="">Country...</option>
@@ -30,14 +30,14 @@
                 </div>
                 <div id ="date1Div">
                     <label>Start Date: </label>
-                    <input type="date" name="startdate" placeholder="startdate" required="required" />
+                    <input type="date" name="startdate" placeholder="startdate" required="required" id ="dateStart">
                </div>
                 <div id="date2Div">
-                   <label>End Date: </label>
-                   <input type="date" name="endDate" placeholder="endDate" required="required" />
+                   <label>&nbsp&nbsp&nbspEnd Date:&nbsp&nbsp&nbsp </label>
+                   <input type="date" name="endDate" placeholder="endDate" required="required" id="dateEnd">
                 </div>
                 <div id ="buttonDiv">
-                  <input name="submit" value="Begin" type="submit" id = "begin"/>
+                  <input name="submit" value="" type="submit" id = "begin"/>
                 </div>
               </div>
             </form>

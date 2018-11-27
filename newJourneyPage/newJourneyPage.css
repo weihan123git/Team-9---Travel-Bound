@@ -40,7 +40,7 @@
 
 	#formDiv {
 		margin: auto;
-		width: 50%;
+		width: 40%;
 	}
 
 	#CountryDiv{
@@ -55,7 +55,8 @@
 	}
 
 	#date1Div{
-		margin: 30px 0% 0 0;
+		margin: 40px 0% 0 0;
+		padding-left: 10px;
 		color: white;
 		text-align: center;
 		font-family: 'Handlee', cursive;
@@ -84,7 +85,8 @@
 		cursor:pointer;
 		-webkit-border-radius: 50%;
 		border-radius: 50%;
-		background-image: url(../images/add.png);
+		background-image: url(../images/begin.jpg);
+		background-size: contain;
 	 background-color: transparent;
 	 background-repeat: no-repeat;
 	 background-position: 0px 0px;
@@ -95,6 +97,33 @@
 		height: 50px;
 		cursor:pointer;
 	}
+
+	#selectCountry {
+    border: 1px solid #ccc;
+    width: 120px;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+#selectCountry select {
+    width: 130%;
+    border: none;
+    box-shadow: none;
+    background: transparent;
+    background-image: none;
+}
+
+#selectCountry select:focus {
+    outline: none;
+}
+
+#date1Div input {
+	    border-radius: 10px;
+}
+
+#date2Div input {
+	    border-radius: 10px;
+}
 	/**
 
 	input[type=date]::-webkit-inner-spin-button {
@@ -111,7 +140,7 @@
 	::-webkit-datetime-edit-fields-wrapper { background: silver; }
 	::-webkit-datetime-edit-text { color: red; padding: 0 0.3em; }
 	::-webkit-datetime-edit-month-field { color: blue; }
-	::-webkit-datetime-edit-day-field { color: green; }
+	::-webkit-datetime-edit-day-field { color: green;  }
 	::-webkit-datetime-edit-year-field { color: purple; }
 	::-webkit-inner-spin-button { display: none; }
 	::-webkit-calendar-picker-indicator { background: orange; }
