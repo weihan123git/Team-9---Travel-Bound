@@ -120,6 +120,11 @@
 		cursor:pointer;
 		-webkit-border-radius: 50%;
 		border-radius: 50%;
+		background-image: url(../images/add.png);
+	 background-color: transparent;
+	 background-repeat: no-repeat;
+	 background-position: 0px 0px;
+	 vertical-align: middle;
 	}
 
 
