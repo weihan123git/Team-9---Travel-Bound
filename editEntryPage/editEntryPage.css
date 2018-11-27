@@ -1,0 +1,155 @@
+	@import url('https://fonts.googleapis.com/css?family=Salsa');
+	@import url('https://fonts.googleapis.com/css?family=Handlee');
+	
+	body {
+		background-image: url(../images/lisbon_background_new.jpg);
+	}
+	
+	#container{
+        height: 600px;
+        width: 60%;
+		margin: 0 20% 0 20%;
+		background-color: rgba(36, 36, 36, 0.7);
+		border-radius: 2%;
+	}
+
+    #titleDiv{
+		font-family: 'Salsa', cursive;
+		color: #FFFFFF;
+		font-size: 37pt;
+        width: 40%;
+        margin: 0 30% 0 30%;
+        text-align: center;
+		letter-spacing: 0.1em;
+    }
+
+    #selectionBox{
+		border: 2px solid #FFFFFF;
+		border-radius: 5%;
+		overflow: hidden;
+        height: 50%;
+        width: 60%;
+        margin: 0 20% 0% 20%;
+	}
+	
+	#entryDiv{
+		border: 2px solid #FFFFFF;
+		border-radius: 20px 65px 20px 30px;
+		overflow: hidden;
+        height: 80px;
+        width: 88%;
+		margin: 2% 20% 2% 5%;
+	}
+
+	#entryImageDiv{
+		border: 2px solid  #FFFFFF;
+		height: 80%;
+		width: 30%;
+		margin: 2% 10% 2% 3%;
+		border-radius: 20%;
+		float: left;
+	}
+
+	#entryTitleDiv{
+		height: 70%;
+		width: 40%;
+		float: left;
+		border: 2px solid #FFFFFF;
+		margin: 3% 0 0 0;
+		border-radius: 10%;
+		text-align: center;
+		font-family: 'Handlee', cursive; 
+		color: #FFFFFF;
+	}
+
+    #journeyDiv{
+		border-radius: 100%;
+		color: white;
+		border: 2px solid #FFFFFF;
+		width: 9%;
+		float: left;
+		height: 80px;
+		margin-left: 22%;
+		margin-top: 30px;
+		background-image: url(../images/journey.png);
+		border: 2px solid red;
+		cursor:pointer;
+    }
+
+    #newEntryDiv{
+		border-radius: 100%;
+		color: white;
+		border: 2px solid #FFFFFF;
+		width: 9%;
+		height: 80px;
+		float: left;
+		margin-left: 15%;
+		margin-top: 30px;
+		background-image: url(../images/add.png);
+		border: 2px solid red;
+		cursor:pointer;
+    }
+
+    #settingsDiv{
+		border-radius: 100%;
+		color: white;
+		border: 2px solid #FFFFFF;
+		width: 9%;
+		height: 80px;
+		float: right;
+		margin-right: 22%;
+		margin-top: 30px;
+		background-image: url(../images/setting.png);
+		border: 2px solid red;
+		cursor:pointer;
+    }
+	
+	
+	#journ {
+		font-family: 'Handlee', cursive;
+		font-size: 11pt;
+		text-align: center;
+		margin-top: 22px;
+	}
+	
+	#enty {
+		font-family: 'Handlee', cursive;
+		font-size: 11pt;
+		text-align: center;
+		margin-top: 22px;
+	}
+	
+	#set {
+		font-family: 'Handlee', cursive;
+		font-size: 11pt;
+		text-align: center;
+		margin-top: 22px;
+	}
+	
+	#def1 {
+		letter-spacing: 0.1em;
+		font-family: 'Handlee', cursive;
+		color: #FFFFFF;
+		float: left;
+		width: 20%;
+		margin-left: 23.5%;
+		margin-top: 15px;
+	}
+	#def2 {
+		letter-spacing: 0.1em;
+		font-family: 'Handlee', cursive;
+		color: #FFFFFF;
+		float: left;
+		width: 20%;
+		margin-left: 2%;
+		margin-top: 15px;
+	}
+	#def3 {
+		letter-spacing: 0.1em;
+		font-family: 'Handlee', cursive;
+		color: #FFFFFF;
+		float: left;
+		width: 20%;
+		margin-left: 4.8%;
+		margin-top: 15px;
+	}
