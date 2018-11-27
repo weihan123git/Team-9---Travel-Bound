@@ -16,17 +16,21 @@
             <div id = "formDiv">
             <form action="place_holder" method="post">
                 <div id ="CountryDiv">
-                  <select name="country">
+                  <select name="country" id="selectCountry" onchange="functionCountry()">
                   <option value="">Country...</option>
                   <option value="AF">United States</option>
                   <option value="AL">Japan</option>
                   <option value="DZ">China</option>
                   <option value="AS">Britain</option>
-                  <option value="AD">Russia </option>
+                  <option value="AD">Russia</option>
                   </select>
                 </div>
                 <div id="CurrencyDiv">
+<<<<<<< HEAD
                     <label id="country">currency label placeholder</label>
+=======
+                    <label id="country">1 CAD = ?</label>
+>>>>>>> 89367fa2c07da686b4eb1cb393aedeffaed4c3e4
                 </div>
                 <div id ="date1Div">
                     <label>Start Date: </label>
@@ -42,5 +46,9 @@
               </div>
             </form>
         </div>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script src="newJourney.js"></script>
+
+
     </body>
 </html>
