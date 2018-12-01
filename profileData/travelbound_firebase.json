@@ -1,0 +1,64 @@
+{
+  "Accounts" : {
+    "account1" : {
+      "defaultCurrency" : "CAD",
+      "email" : "weihan@gmail.com",
+      "id" : "01",
+      "journeys" : {
+        "journeyID1" : "01",
+        "journeyID2" : "02",
+        "journeyID3" : "03"
+      },
+      "password" : "passwords"
+    },
+    "account2" : {
+      "defaultCurrency" : "CAD",
+      "email" : "kang@gmail.com",
+      "id" : "02",
+      "journeys" : {
+        "journeyID1" : "07"
+      },
+      "password" : "passwords"
+    },
+    "account3" : {
+      "defaultCurrency" : "USD",
+      "email" : "louis@gmail.com",
+      "id" : "03",
+      "journeys" : {
+        "journeyID1" : "04",
+        "journeyID2" : "05"
+      },
+      "password" : "passwords"
+    }
+  },
+  "Entries" : {
+    "entry1" : {
+      "comment " : "I bought a vegan burger here!",
+      "date" : {
+        "day" : "01",
+        "month" : "01",
+        "year" : 2018
+      },
+      "id" : "01",
+      "location" : "Tokyo",
+      "picture" : "images/image.jpg",
+      "purchaseCurrency" : "JPY"
+    }
+  },
+  "Journeys" : {
+    "journey1" : {
+      "entries" : {
+        "entryID1" : "01",
+        "entryID2" : "02",
+        "entryID3" : "03"
+      },
+      "id" : "01",
+      "region" : "Japan",
+      "startDate" : {
+        "day" : "01",
+        "month" : "01",
+        "year" : 2018
+      }
+    }
+  }
+}
