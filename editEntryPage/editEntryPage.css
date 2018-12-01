@@ -62,7 +62,7 @@
 		color: #FFFFFF;
 	}
 
-    #journeyDiv{
+    #submitDiv{
 		border-radius: 100%;
 		color: white;
 		border: 2px solid #FFFFFF;
@@ -71,85 +71,11 @@
 		height: 80px;
 		margin-left: 22%;
 		margin-top: 30px;
-		background-image: url(../images/journey.png);
+		background-image: url(../images/submit.png);
+        background-repeat: no-repeat;
 		border: 2px solid red;
 		cursor:pointer;
     }
 
-    #newEntryDiv{
-		border-radius: 100%;
-		color: white;
-		border: 2px solid #FFFFFF;
-		width: 9%;
-		height: 80px;
-		float: left;
-		margin-left: 15%;
-		margin-top: 30px;
-		background-image: url(../images/add.png);
-		border: 2px solid red;
-		cursor:pointer;
-    }
-
-    #settingsDiv{
-		border-radius: 100%;
-		color: white;
-		border: 2px solid #FFFFFF;
-		width: 9%;
-		height: 80px;
-		float: right;
-		margin-right: 22%;
-		margin-top: 30px;
-		background-image: url(../images/setting.png);
-		border: 2px solid red;
-		cursor:pointer;
-    }
 	
 	
-	#journ {
-		font-family: 'Handlee', cursive;
-		font-size: 11pt;
-		text-align: center;
-		margin-top: 22px;
-	}
-	
-	#enty {
-		font-family: 'Handlee', cursive;
-		font-size: 11pt;
-		text-align: center;
-		margin-top: 22px;
-	}
-	
-	#set {
-		font-family: 'Handlee', cursive;
-		font-size: 11pt;
-		text-align: center;
-		margin-top: 22px;
-	}
-	
-	#def1 {
-		letter-spacing: 0.1em;
-		font-family: 'Handlee', cursive;
-		color: #FFFFFF;
-		float: left;
-		width: 20%;
-		margin-left: 23.5%;
-		margin-top: 15px;
-	}
-	#def2 {
-		letter-spacing: 0.1em;
-		font-family: 'Handlee', cursive;
-		color: #FFFFFF;
-		float: left;
-		width: 20%;
-		margin-left: 2%;
-		margin-top: 15px;
-	}
-	#def3 {
-		letter-spacing: 0.1em;
-		font-family: 'Handlee', cursive;
-		color: #FFFFFF;
-		float: left;
-		width: 20%;
-		margin-left: 4.8%;
-		margin-top: 15px;
-	}
