@@ -38,6 +38,7 @@ function functionCountry() {
           }
           var year1 = date1.getFullYear();
 
+
           var date2 = new Date($('#dateEnd').val());
           var day2 = date2.getDate();
           if (day2 === 32) {

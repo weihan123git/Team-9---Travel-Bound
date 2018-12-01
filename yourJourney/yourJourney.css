@@ -14,22 +14,6 @@
 		border-radius: 2%;
 	}
 
-<<<<<<< HEAD
-=======
-    #update {
-        border: 1px solid white;
-        border-radius: 10%;
-        width: 7%;
-        height: 20px;
-        text-align: center;
-        font-family: 'Salsa', cursive;
-        color: white;
-        margin: -20px 0 0 0;
-        position: absolute;
-        margin: -50px 0 0 50%;
-    }
-	
->>>>>>> 8cc742db5c2cb21a36ca659fd8e56a3d552475dd
 	#title {
 		text-align: center;
 		font-family: 'Salsa', cursive;
@@ -49,7 +33,7 @@
         overflow-y: scroll;
     }
 
-    #trip1 {
+    .trip1 {
         float: left;
         width: 80%;
         height: 150px;
@@ -58,6 +42,7 @@
         border: 2px solid white;
         border-radius: 10%;
     }
+
     #trip2 {
         float: left;
         width: 80%;
@@ -89,7 +74,26 @@
         margin: 5% 0 0 4%;
         font-family: 'Handlee', cursive;
         color: whitesmoke;
+				font-size:15 pt;
     }
+
+		#noJ {
+			margin: 0 0 0 4%;
+			font-family: 'Handlee', cursive;
+			color: whitesmoke;
+			font-size: 20pt;
+		}
+
+		#hi{
+			border-radius: 50%;
+			margin-left: 20%;
+			margin-top: 5%;
+		}
+
+			img:hover {
+			border: 2px solid red;
+		}
+
 
     #placeholder {
         width: 100%;
