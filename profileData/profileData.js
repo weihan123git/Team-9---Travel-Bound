@@ -8,7 +8,7 @@ var day;
 var month;
 var year;
 var image;
-
+var comment;
 
 let profile = {email: email, accountPassword: password, defaultCurrency: currency, journeys};
 
@@ -18,7 +18,7 @@ let journey = {id: id, tripLocation: country, startDate: date, endDate: date, en
 
 //entries should be a list of entry objects
 let entries = [entry];
-let entry = {id: id, location: location, date: date, purchaseCurrency: currency, picture: image};
+let entry = {id: id, location: location, date: date, purchaseCurrency: currency, picture: image, comment: comment};
 
 let date = {day: day, month: month, year: year};
 

@@ -14,6 +14,24 @@
 		border-radius: 2%;
 	}
 
+    #update {
+        border: 1px solid white;
+        border-radius: 10%;
+        width: 7%;
+        height: 20px;
+        text-align: center;
+        font-family: 'Salsa', cursive;
+        color: white;
+        margin: -20px 0 0 0;
+        position: absolute;
+        margin: -50px 0 0 50%;
+    }
+
+    #titlediv {
+        margin: 55px 0 0 0;
+    }
+
+
 	#title {
 		text-align: center;
 		font-family: 'Salsa', cursive;
@@ -26,8 +44,8 @@
     #trip {
         float: left;
         width: 80%;
-        height: 400px;
-        margin: 0 10% 0 10%;
+        height: 380px;
+        margin: -20px 10% 0 10%;
         border: 2px solid white;
         border-radius: 5%;
         overflow-y: scroll;
@@ -135,3 +153,16 @@
         width: 100%;
         height: 100%;
     }
+    #home {
+        float: left;
+		border-radius: 100%;
+		border: 1px solid;
+		width: 80px;
+		height: 80px;
+		margin: 25px 0 0 45%;
+		background-image: url(../images/home.png);
+	}
+
+	#home:hover {
+		border: 2px solid red;
+	}

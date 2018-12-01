@@ -60,6 +60,9 @@
 		font-size: 11pt;
 	}
 	
+    #setting2:hover {
+		background-color: grey;
+	}
 	#setting3:hover {
 		background-color: grey;
 	}
@@ -75,9 +78,11 @@
 		text-align: center;
 		background-image: url(../images/home.png);
 	}
+
 	#home:hover {
 		border: 2px solid red;
 	}
+
 	#def1 {
 		letter-spacing: 0.1em;
 		font-family: 'Handlee', cursive;
@@ -87,3 +92,4 @@
 		margin-top: 10px;
 		color: #FFFFFF;
 	}
+
