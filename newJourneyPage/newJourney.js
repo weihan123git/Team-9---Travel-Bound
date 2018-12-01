@@ -52,7 +52,7 @@ function functionCountry() {
         });
     })();
 
-    });
+  });
 
 function beginFunction() {
     var txt = confirm("Journey Begin !");
