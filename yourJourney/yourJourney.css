@@ -14,6 +14,8 @@
 		border-radius: 2%;
 	}
 
+<<<<<<< HEAD
+=======
     #update {
         border: 1px solid white;
         border-radius: 10%;
@@ -27,6 +29,7 @@
         margin: -50px 0 0 50%;
     }
 	
+>>>>>>> 8cc742db5c2cb21a36ca659fd8e56a3d552475dd
 	#title {
 		text-align: center;
 		font-family: 'Salsa', cursive;
@@ -45,7 +48,7 @@
         border-radius: 5%;
         overflow-y: scroll;
     }
-    
+
     #trip1 {
         float: left;
         width: 80%;
@@ -92,7 +95,7 @@
         width: 100%;
         height: 100%;
     }
-    
+
     #zoom {
         float: left;
         width: 5%;
