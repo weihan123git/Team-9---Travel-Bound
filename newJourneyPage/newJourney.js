@@ -54,14 +54,4 @@ function functionCountry() {
 
   });
 
-function beginFunction() {
-    var txt = confirm("Journey Begin !");
-    if (txt) {
-        // back to home page if click ok
-        window.location = "../firstPage/firstpage.html"
-    } else {
-        // stay in the same page if click cancle
-        window.location = "../newJourneyPage/NewJourneyPage.html"
-    }
-    document.getElementById("demo").innerHTML = txt;
-}
+
