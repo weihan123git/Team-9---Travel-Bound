@@ -38,7 +38,8 @@ $(document).ready(function() {
       }
       var year2 = date2.getFullYear();
 
-      addJourney(country1, day1, month1, year1, day2, month2, year2);
+      addJourney();
+      
     });
 })();
 });
@@ -66,36 +67,34 @@ function functionCountry() {
  }
 }
 
-  /*
-function beginFunction() {
-    var txt = confirm("Journey Begin !");
-    if (txt) {
-        // back to home page if click ok
-        window.location = "../firstPage/firstpage.html"
-    } else {
-        // stay in the same page if click cancel
-        window.location = "../newJourneyPage/NewJourneyPage.html"
-    }
-    document.getElementById("demo").innerHTML = txt;
-}*/
-
 // add a Journey to the database
-function addJourney(country, startDay, startMonth, startYear, day2, month2, year2) {
-  let userId = firebase.auth().currentUser.uid;
-  console.log("This worked!");
-  var Journeys = database.ref('/Journeys');
+function addJourney() {
 
-  var newJourney = Journeys.push();
-  
-  newJourney.ref('/journeys/').set({
-    id : userId,
-    region : country,
-    startDate : {day : startDay, month : startMonth, year : startYear},
-    endDate : {day : endDay, month : endMonth, year : endYear},
-  });
+  console.log("Hello~~~~");
+
+  var theNewJourney = {
+    region: "region", 
+    startday: "startDay", 
+    startMonth: "startMonth", 
+    startYear: "startYear", 
+    day2: "day2", 
+    month2: "month2", 
+    year2: "year2"
+  }
+
+  var i = 0;
+
+  var journeys = database.ref("Accounts").child("account1").child("journeys").child("journey" + i);
+
+  journeys.update(theNewJourney);
+
   console.log("This also worked!");
+
+  journeys.child("day2").once("value").then(function(x) {
+    var journey = x.val();
+    console.log(journey);
+  })
+
 }
 
-function updateJourneyNumber(){
-  var counter = firebase.database().ref('')
-}
+
