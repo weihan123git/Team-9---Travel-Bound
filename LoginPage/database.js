@@ -1,10 +1,10 @@
 var config = {
-    apiKey: "AIzaSyCgOgIDUcm6-LEGlefRI57fLJ9EkeLghEA",
-    authDomain: "team-9-travel-bound.firebaseapp.com",
-    databaseURL: "https://team-9-travel-bound.firebaseio.com",
-    projectId: "team-9-travel-bound",
-    storageBucket: "team-9-travel-bound.appspot.com",
-    messagingSenderId: "102236553259"
+  apiKey: "AIzaSyBqhsUHN9SFzz2r2QzQdA_PeNqG1lrKD-g",
+  authDomain: "travelbound-c0cd0.firebaseapp.com",
+  databaseURL: "https://travelbound-c0cd0.firebaseio.com",
+  projectId: "travelbound-c0cd0",
+  storageBucket: "travelbound-c0cd0.appspot.com",
+  messagingSenderId: "1038974227621"
   };
   firebase.initializeApp(config);
 
