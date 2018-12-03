@@ -1,6 +1,6 @@
 	@import url('https://fonts.googleapis.com/css?family=Salsa');
 	@import url('https://fonts.googleapis.com/css?family=Handlee');
-	
+
 	body {
 		background-image: url(../images/chiado.jpg);
 	}
@@ -13,7 +13,20 @@
 		background-color: rgba(0,0,255,0.3);
 		border-radius: 2%;
 	}
-	
+
+	#signoutButton {
+		width: 50px;
+		height: 50px;
+		border-radius: 50%;
+		float: right;
+		margin-right: 8%;
+		margin-top: -12%;
+	}
+
+		#signoutDiv :hover {
+		border: 2px solid red;
+	}
+
 	#title {
 		text-align: center;
 		color: #FFFFFF;
@@ -21,7 +34,7 @@
 		font-size: 37pt;
 		letter-spacing: 0.1em;
 	}
-	
+
 	#setting1 {
 		margin: 0 35% 0 35%;
 		width: 30%;
@@ -33,7 +46,7 @@
 		font-family: 'Handlee', cursive;
 		font-size: 11pt;
 	}
-	
+
 	#setting2 {
 		margin: 0 35% 0 35%;
 		width: 30%;
@@ -46,7 +59,7 @@
 		font-family: 'Handlee', cursive;
 		font-size: 11pt;
 	}
-	
+
 	#setting3 {
 		margin: 0 35% 0 35%;
 		width: 30%;
@@ -59,14 +72,14 @@
 		font-family: 'Handlee', cursive;
 		font-size: 11pt;
 	}
-	
+
     #setting2:hover {
 		background-color: grey;
 	}
 	#setting3:hover {
 		background-color: grey;
 	}
-	
+
 	#home {
 		border-radius: 100%;
 		border: 1px solid;
@@ -92,4 +105,3 @@
 		margin-top: 10px;
 		color: #FFFFFF;
 	}
-

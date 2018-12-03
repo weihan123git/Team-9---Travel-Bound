@@ -37,7 +37,7 @@ $(document).ready(function() {
         month2 += 1;
       }
       var year2 = date2.getFullYear();
-      
+
     });
 })();
 });
@@ -69,18 +69,36 @@ function functionCountry() {
 function addNewJourney() {
 
   var newJourney = {
-    region: "region", 
+    region: "region",
     startDate: {
-      startday: "startDay", 
-      startMonth: "startMonth", 
-      startYear: "startYear", 
+      startday: "startDay",
+      startMonth: "startMonth",
+      startYear: "startYear",
     },
     endDate: {
-      endDate: "day2", 
-      endMonth: "month2", 
+      endDate: "day2",
+      endMonth: "month2",
       endYear: "year2"
     }
   }
+
+function addJourney(country, startDay, startMonth, startYear, day2, month2, year2) {
+
+  let userId = firebase.auth().currentUser.uid;
+  console.log("This worked!");
+  var Journeys = database.ref('/Journeys');
+
+  var newJourney = Journeys.push();
+
+  newJourney.ref('/journeys/').set({
+    id : userId,
+    region : country,
+    startDate : {day : startDay, month : startMonth, year : startYear},
+    endDate : {day : endDay, month : endMonth, year : endYear},
+  });
+
+  console.log("This also worked!");
+}
 
   var i = 0;
 
@@ -103,3 +121,4 @@ function readJourney(){
     console.log(journey);
   })
 }
+>>>>>>> 216a727ced2ea02c068782e2e812851a409164fb
