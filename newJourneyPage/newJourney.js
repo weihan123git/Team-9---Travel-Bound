@@ -115,6 +115,7 @@ function beginFunction() {
 
 // add a Journey to the database
 function addJourney(country, startDay, startMonth, startYear, day2, month2, year2) {
+    
   let userId = firebase.auth().currentUser.uid;
   console.log("This worked!");
   var Journeys = database.ref('/Journeys');
