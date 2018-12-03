@@ -76,17 +76,21 @@
 	}
 
     #submitDiv{
-		border-radius: 100%;
-		color: white;
-		border: 2px solid #FFFFFF;
-		width: 9%;
+		width: 50%;
+		height: 120px;
 		float: left;
+		margin: 2% 25% 0 25%;
+	}
+	
+	#submitButton{
+		border-radius: 50%;
+		width: 80px;
 		height: 80px;
-		margin: 40px 0 0 45%;
-		background-image: url(../images/submit.png);
-        background-repeat: no-repeat;
 		border: 2px solid red;
+		background-repeat: no-repeat;
+		background-image: url(../images/submit.png);
 		cursor:pointer;
+<<<<<<< HEAD
     }
 
 #submit {
@@ -96,3 +100,18 @@
     font-size: 14pt;
     margin: 140px 0 0 -7.5%;
 }
+=======
+		margin: 0 auto;
+	}
+    
+	#submit {
+		float: left;
+		color: white;
+		font-family: 'Handlee', cursive; 
+		font-size: 14pt;
+		height: 30px;
+		margin: 0 41.5% 0 41.5%;
+	}
+	
+	
+>>>>>>> 216a727ced2ea02c068782e2e812851a409164fb

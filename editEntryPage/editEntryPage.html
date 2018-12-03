@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Edit Entry</title>
+        <title>New Entry</title>
         <meta charset = "utf-8">
         <link rel = "stylesheet" type = "text/css" href = "editEntryPage.css">
-        <script src="./editEntryPage.js"></script>
     </head>
     <body>
         <div id = "container">
@@ -31,18 +30,14 @@
                     <p id = "entryTitleDiv">Here is the entry before</p>
                 </div>
             </div>
-
-                    <div id = "submitDiv" onclick="submitFunction()">
-                    </div>
-
-
-                <div id = "submit">
-                    Submit
-                </div>
-
-
+            <div id = "submitDiv">
+                <div id = "submitButton" onclick = "addNewEntry(); submitFunction();"></div>
+                <aside id = "submit" onclick = "addNewEntry();submitFunction();">Submit</aside>
+            </div>
         </div>
         <script src="https://www.gstatic.com/firebasejs/5.5.8/firebase.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script src="./editEntryPage.js"></script>
         <script src = "../JavascriptF/database.js"></script>
         <script src="../javascriptF/signout.js"></script>
     </body>
