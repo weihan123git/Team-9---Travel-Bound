@@ -53,7 +53,7 @@ function functionCountry() {
     })();
 
   });
-
+/*
 function beginFunction() {
     var txt = confirm("Journey Begin !");
     if (txt) {
@@ -65,3 +65,4 @@ function beginFunction() {
     }
     document.getElementById("demo").innerHTML = txt;
 }
+*/

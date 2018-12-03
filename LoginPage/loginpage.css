@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Salsa');
+
+#titleDiv {
+  margin: auto;
+  margin-top: -1em;
+  text-align: center;
+  font-family: Salsa;
+  font-size: 30pt;
+  color: white;
+}
+
+#firebaseui-auth-container {
+  margin-top: -20px;
+}
+
+
+body {
+    background-image: url(../images/loginb2.jpg);
+    background-repeat: no-repeat;
+     background-position: 50% 30%;
+
+}
+
+#container {
+  margin: 3% 20% 0 20%;
+  border: 2px solid;
+  width: 60%;
+  height: 600px;
+  background-color: rgba(36, 36, 36, 0.6);
+  border-radius: 2%;
+}

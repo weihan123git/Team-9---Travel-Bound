@@ -3,8 +3,8 @@
 
   <head>
     <script src="https://cdn.firebase.com/libs/firebaseui/3.1.1/firebaseui.js"></script>
-    <link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/3.1.1/firebaseui.css" />
-
+   <link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/3.1.1/firebaseui.css" />
+   <link type="text/css" rel="stylesheet" href="loginpage.css" />
     <script src="https://www.gstatic.com/firebasejs/5.5.8/firebase.js"></script>
     <script src = "./database.js"></script>
 
@@ -17,10 +17,12 @@
 
       <!-- The surrounding HTML is left untouched by FirebaseUI.
      Your app may use that space for branding, controls and other customizations.-->
-     <h1>TravelBound</h1>
-     <div id="firebaseui-auth-container">Start your journey!</div>
-     <div id="loader">Loading login screen...</div>
-
+     <div id="container">
+     <div id = "titleDiv">
+         <h1 id = "title">TravelBound</h1>
+     </div>
+     <div id="firebaseui-auth-container"></div>
+    </div>
      <script>
          var uiConfig = {
       callbacks: {
@@ -42,12 +44,8 @@
       //../ firstPage/firstPage.html
       signInOptions: [
         // Leave the lines as is for the providers you want to offer your users.
-        firebase.auth.GoogleAuthProvider.PROVIDER_ID,
-        firebase.auth.FacebookAuthProvider.PROVIDER_ID,
-        firebase.auth.TwitterAuthProvider.PROVIDER_ID,
-        firebase.auth.GithubAuthProvider.PROVIDER_ID,
+
         firebase.auth.EmailAuthProvider.PROVIDER_ID,
-        firebase.auth.PhoneAuthProvider.PROVIDER_ID
       ],
       // Terms of service url.
       tosUrl: '<main.html>',
