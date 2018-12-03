@@ -1,13 +1,12 @@
   <!DOCTYPE html>
 <html lang="en">
     <head>
+        <title>New Journey Page</title>
+
         <meta charset="utf-8">
         <meta name="author" content="Team 9">
         <meta name="description" content=".">
         <link rel ="stylesheet" href ="newJourneyPage.css">
-        <script src="https://www.gstatic.com/firebasejs/5.5.8/firebase.js"></script>
-
-        <title>New Journey Page</title>
     </head>
     <body id ="background">
         <div id ="container">
@@ -38,13 +37,13 @@
                    <input type="date" name="endDate" placeholder="endDate" required="required" id="dateEnd">
                 </div>
                 <div id ="buttonDiv">
-                    <input name="submit" value="" type="submit" id = "begin"/>
+                    <input name="submit" value="" type="submit" id = "begin" onClick = "addNewJourney()"/>
                 </div>
-                <div><input type = "button" onclick = "addJourney()"></div>
             </form>
         </div>
+        <script src="https://www.gstatic.com/firebasejs/5.5.8/firebase.js"></script>
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-        <script src="newJourney.js"></script>
+        <script src="./newJourney.js"></script>
 
     </body>
 </html>

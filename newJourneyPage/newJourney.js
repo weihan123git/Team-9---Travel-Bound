@@ -37,8 +37,6 @@ $(document).ready(function() {
         month2 += 1;
       }
       var year2 = date2.getFullYear();
-
-      addJourney();
       
     });
 })();
@@ -68,31 +66,40 @@ function functionCountry() {
 }
 
 // add a Journey to the database
-function addJourney() {
+function addNewJourney() {
 
-  console.log("Hello~~~~");
-
-  var theNewJourney = {
+  var newJourney = {
     region: "region", 
-    startday: "startDay", 
-    startMonth: "startMonth", 
-    startYear: "startYear", 
-    day2: "day2", 
-    month2: "month2", 
-    year2: "year2"
+    startDate: {
+      startday: "startDay", 
+      startMonth: "startMonth", 
+      startYear: "startYear", 
+    },
+    endDate: {
+      endDate: "day2", 
+      endMonth: "month2", 
+      endYear: "year2"
+    }
   }
 
   var i = 0;
 
   var journeys = database.ref("Accounts").child("account1").child("journeys").child("journey" + i);
 
-  journeys.update(theNewJourney);
+  journeys.update(newJourney);
+  console.log("Journey sucessfully created!");
 
-  console.log("This also worked!");
+}
+
+// read from the database
+function readJourney(){
+
+  var i = 0;
+
+  var journeys = database.ref("Accounts").child("account1").child("journeys").child("journey" + i);
 
   journeys.child("day2").once("value").then(function(x) {
     var journey = x.val();
     console.log(journey);
   })
-
 }
