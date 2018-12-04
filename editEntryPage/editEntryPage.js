@@ -65,6 +65,8 @@ function addNewEntry(){
 
     entries.update(newEntry);
     console.log("Entry" + i + " successfully added to journey" + i);
+    window.alert("Submit Successfully");
+    window.location.href = "../journeyPage/journeys.html";
 }
 
 // read from the database

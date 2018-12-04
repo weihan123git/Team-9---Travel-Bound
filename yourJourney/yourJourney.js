@@ -1,6 +1,9 @@
 
-
   $(document).ready(function() {
+
+  var database = firebase.database();
+
+
     $(function() {
     var i;
     var count = 0;

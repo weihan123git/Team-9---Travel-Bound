@@ -12,8 +12,12 @@
 		width: 60%;
 		height: 600px;
 		background-color: rgba(255,255,255,0.2);
+<<<<<<< HEAD
 		border-radius: 2%;
         box-shadow: 10px 10px 10px black;
+=======
+		border-radius: 2%
+>>>>>>> c6161678c6aaa512c8e9f64dd0b13745b76d9651
 		margin-top: 3%;
 	}
 
