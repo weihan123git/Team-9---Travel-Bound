@@ -28,4 +28,5 @@ body {
   height: 600px;
   background-color: rgba(36, 36, 36, 0.6);
   border-radius: 2%;
+  box-shadow: 10px 10px 10px black;
 }

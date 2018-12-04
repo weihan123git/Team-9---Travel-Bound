@@ -11,6 +11,7 @@
 		margin: 0 20% 0 20%;
 		background-color: rgba(36, 36, 36, 0.7);
 		border-radius: 2%;
+        box-shadow: 10px 10px 10px black;
 	}
 
 	#signoutButton {
@@ -83,24 +84,23 @@
 	}
 	
 	#submitButton{
-		border-radius: 50%;
-		width: 80px;
+		border-radius: 55%;
+		width: 18%;
 		height: 80px;
 		border: 2px solid red;
 		background-repeat: no-repeat;
-		background-image: url(../images/submit.png);
+		background-image: url(../images/submit2.png);
 		cursor:pointer;
-<<<<<<< HEAD
+        margin: 10px 0 0 40%;
     }
 
-#submit {
-    float: left;
-    color: white;
-    font-family: 'Handlee', cursive;
-    font-size: 14pt;
-    margin: 140px 0 0 -7.5%;
-}
-=======
+    #submit {
+        float: left;
+        color: white;
+        font-family: 'Handlee', cursive;
+        font-size: 14pt;
+        margin: 20px 0 0 43.5%;
+    }
 		margin: 0 auto;
 	}
     
@@ -112,6 +112,3 @@
 		height: 30px;
 		margin: 0 41.5% 0 41.5%;
 	}
-	
-	
->>>>>>> 216a727ced2ea02c068782e2e812851a409164fb
