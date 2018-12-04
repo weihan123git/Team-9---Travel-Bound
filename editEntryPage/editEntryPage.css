@@ -14,7 +14,6 @@
 		border: 2px solid black;
 		background-color: rgba(100, 100, 100, 0.6);
 		border-radius: 2%;
-        box-shadow: 10px 10px 10px black;
 	}
 
 	#signoutButton {
@@ -95,7 +94,6 @@
 		background-repeat: no-repeat;
 		background-image: url(../images/submit2.png);
 		cursor:pointer;
-<<<<<<< HEAD
         margin: 10px 0 0 40%;
     }
 
@@ -106,8 +104,6 @@
         font-size: 14pt;
         margin: 20px 0 0 43.5%;
     }
-=======
->>>>>>> cdf2f46009110956e129b42efbca5c4cdd890ee1
 		margin: 0 auto;
 	}
 
