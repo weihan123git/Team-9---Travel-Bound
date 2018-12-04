@@ -106,7 +106,7 @@ function addJourney(country, startDay, startMonth, startYear, day2, month2, year
 
   journeys.update(newJourney);
   console.log("Journey sucessfully created!");
-
+  window.alert("New Journey Created!");
 }
 
 // read from the database
