@@ -12,33 +12,31 @@
             </div>
             <div id="signoutDiv"><img id ="signoutButton" src="../images/signout.jpg"></div>
             <div id = "selectionBox">
-                <!-- So we should have an interactive list that adds each of these boxes to the list
-                    There should also be a scroll bar to check through all the additions we've added
-                    The list should sort entries by chronological order baby
-                    Let's use the same format for looking through Journeys
-                    ok boiks I'm done for now-->
-                <div id = "entryDiv">
-                    <img id = "entryImageDiv" src = "https://dummyimage.com/80x80/4fa6a0/ffffff&text=Placeholder+Image"></img>
-                    <p id = "entryTitleDiv">Here is your last entry</p>
-                </div>
-                <div id = "entryDiv">
-                    <img id = "entryImageDiv" src = "https://dummyimage.com/80x80/4fa6a0/ffffff&text=Placeholder+Image"></img>
-                    <p id = "entryTitleDiv">Here is the entry before</p>
-                </div>
-                <div id = "entryDiv">
-                    <img id = "entryImageDiv" src = "https://dummyimage.com/80x80/4fa6a0/ffffff&text=Placeholder+Image"></img>
-                    <p id = "entryTitleDiv">Here is the entry before</p>
-                </div>
+                <form id = "form">
+                    Purchase Currency:<br>
+                    <input type = "text" id = "purchaseCurrency"><br>
+                    Picture:<br>
+                    <input type = "text" id = "picture"><br>
+                    Location:<br>
+                    <input type = "text" id = "location"><br>
+                    Comment:<br>
+                    <input type = "text" id = "comment"><br>
+                    Day:<br>
+                    <input type = "text" id = "day"><br>
+                    Month:<br>
+                    <input type = "text" id = "month"><br>
+                    Year:<br>
+                    <input type = "text" id = "year"><br>
+                </form>
             </div>
             <div id = "submitDiv" >
-                <div id = "submitButton" onclick = "addNewEntry()" action="../journeyPage/journeys.html"></div>
+                <div id = "submitButton" name = "submitButton"  action="../journeyPage/journeys.html"></div>
                 <aside id = "submit" >Submit</aside>
             </div>
         </div>
         <script src="https://www.gstatic.com/firebasejs/5.5.8/firebase.js"></script>
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script src="./editEntryPage.js"></script>
-        <script src = "../JavascriptF/database.js"></script>
         <script src="../javascriptF/signout.js"></script>
     </body>
 </html>

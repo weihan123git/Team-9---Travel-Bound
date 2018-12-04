@@ -8,7 +8,7 @@
 	}
 
 	#container{
-        height: 600px;
+		height: 600px;
         width: 60%;
 		margin: 3% 20% 0 20%;
 		border: 2px solid black;
@@ -26,7 +26,7 @@
 		border: 2px solid green;
 	}
 
-		#signoutDiv :hover {
+	#signoutDiv :hover {
 		border: 2px solid red;
 	}
 
@@ -41,12 +41,20 @@
     }
 
     #selectionBox{
-		border: 2px solid #FFFFFF;
+		border: 2px solid #000000;
 		border-radius: 5%;
 		overflow: hidden;
-        height: 50%;
+        height: 300px;
         width: 60%;
-        margin: 0 20% 0% 20%;
+		margin: 0 20% 0% 20%;
+	}
+
+	#form {
+		color: white;
+		font-weight: bold;
+		text-align: center;
+		float: left;
+		margin: 0 35% 0 35%;
 	}
 
 	#entryDiv{
@@ -81,7 +89,7 @@
 
     #submitDiv{
 		width: 50%;
-		height: 120px;
+		height: 80px;
 		float: left;
 		margin: 2% 25% 0 25%;
 	}
@@ -113,3 +121,5 @@
 		height: 30px;
 		margin: 0 41.5% 0 41.5%;
 	}
+
+	
