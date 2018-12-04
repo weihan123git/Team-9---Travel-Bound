@@ -43,7 +43,6 @@
     #selectionBox{
 		border: 2px solid #000000;
 		border-radius: 5%;
-		overflow: hidden;
         height: 300px;
         width: 60%;
 		margin: 0 20% 0% 20%;
@@ -57,7 +56,7 @@
 		margin: 0 35% 0 35%;
         height: 65%;
         width: 60%;
-        margin: -4% 20% 0% 20%;
+        margin: 0 20% 0 20%;
 		overflow-y: scroll;
 	}
 
