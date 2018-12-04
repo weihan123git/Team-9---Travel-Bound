@@ -10,3 +10,4 @@
     firebase.initializeApp(config);
     app_firebase = firebase;
 })();
+  var database = firebase.database();

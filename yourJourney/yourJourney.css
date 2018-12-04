@@ -15,6 +15,9 @@
 		border: 2px solid green;
 	}
 
+	#signoutDiv :hover {
+	border: 2px solid red;
+}
 	#container1 {
 		margin: 3% 20% 0 20%;
 		border: 2px solid;
@@ -68,7 +71,7 @@
         background-color: skyblue;
         margin: 35px 0 0 10%;
         border: 2px solid white;
-        border-radius: 10%;
+        border-radius: 4%;
     }
 
     #trip2 {
@@ -78,13 +81,13 @@
         background-color: skyblue;
         margin: 30px 0 0 10%;
         border: 2px solid white;
-        border-radius: 10%;
+        border-radius: 0%;
     }
 
     #img {
         float: left;
         height: 115px;
-        width: 18%;
+        width: 60%;
         border: 2px solid white;
         border-radius: 3%;
         color: white;
@@ -94,7 +97,7 @@
     #des {
         float: left;
         height: 90px;
-        width: 45%;
+        width: 3%;
         margin: 25px 0 0 5%;
     }
 

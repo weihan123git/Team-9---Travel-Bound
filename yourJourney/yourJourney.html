@@ -1,29 +1,51 @@
 <!DOCTYPE html>
   <html lang="en">
     <head>
-	    <title>        </title>
+	    <title>      a  </title>
         <meta charset="utf-8" />
         <link rel="stylesheet" type="text/css" href="yourJourney.css">
+        <script src="https://www.gstatic.com/firebasejs/5.5.8/firebase.js"></script>
+  <!--      <script src="../javascriptF/database.js"></script> -->
+        <script>
+        var config = {
+            apiKey: "AIzaSyCgOgIDUcm6-LEGlefRI57fLJ9EkeLghEA",
+            authDomain: "team-9-travel-bound.firebaseapp.com",
+            databaseURL: "https://team-9-travel-bound.firebaseio.com",
+            projectId: "team-9-travel-bound",
+            storageBucket: "team-9-travel-bound.appspot.com",
+            messagingSenderId: "102236553259"
+          };
+          firebase.initializeApp(config);
+          var database = firebase.database();
+        </script>
+        <script src="./jquery.min.js"></script>
     </head>
     <body>
-        <div id = "container1">
+        <div id="container1">
 
-            <div id = "titlediv">
+            <div id="titlediv">
                 <p id = "title">Your Journeys</p>
             </div>
             <div id="signoutDiv"><img id ="signoutButton" src="../images/signout.jpg"></div>
-            <div id = "trip">
+            <div id="trip">
 
             </div>
 
-            <a href = '../firstPage/firstpage.html'><div id = "home">
-			</div></a>
+            <a href='../firstPage/firstpage.html'>
+              <div id="home">
+              </div>
+            </a>
         </div>
-        <script src="jquery.min.js"></script>
-        <script src="yourJourney.js"></script>
-        <script src="https://www.gstatic.com/firebasejs/5.5.8/firebase.js"></script>
-        <script src = "../JavascriptF/database.js"></script>
-        <script src="../javascriptF/signout.js"></script>
 
+        <script src="./yourJourney.js"></script>
+        <script src="../javascriptF/signout.js"></script>
+        <script>
+        database.ref().child('Accounts/account1/journeys/').once('value', snap => {
+          console.log(snap.val());
+          var journeyObj = snap.val();
+          var journeysCreated = Object.keys(journeyObj);
+          console.log(journeysCreated.length);
+        });
+        </script>
     </body>
   </html>
