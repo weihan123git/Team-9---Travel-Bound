@@ -1,3 +1,13 @@
+<<<<<<< HEAD
+=======
+/* This is for another page. Trying to fix the <onClick> button
+window.addEventListener("DOMContentLoaded", function(event) {
+  document.getElementById('elementName').addEventListener("change", validateDate);
+});
+*/
+
+
+>>>>>>> 07d466cb54ef8e36e42e1e18540c4ec94d09ac0d
 (function() {
   var firebase = app_firebase;
 
