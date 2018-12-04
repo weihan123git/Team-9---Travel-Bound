@@ -11,10 +11,52 @@ var config = {
 
   var database = firebase.database();
 
+  //the user's ID - allows us to change user specific data
+  var userCode = sessionStorage.getItem("userCode");
+
 $(document).ready(function() {
+    
+    console.log(userCode);
+
+    readEntry();
+    database.ref().child('Accounts/account1/journeys/').once('value', snap => {
+      console.log(snap.val());
+      var journeyObj = snap.val();
+      var journeysCreated = Object.keys(journeyObj);
+      console.log(journeysCreated.length);
+    });
     console.log("Everything worked");
 });
+/*
+window.addEventListener("DOMContentLoaded", function(event) {
+    document.getElementById('submitButton').addEventListener("change", addNewEntry());
+  });
+  */
 
+  var theEntry = firebase.database().ref().child('Accounts').child(userCode).child('journeys').child('journey0').child('entries').child('entry0');
+
+  $('#submitButton').click(function() {
+    var newPurchaseCurrency = $('#purchaseCurrency').val();
+    var newPicture = $('#picture').val();
+    var newLocation = $('#location').val();
+    var newComment = $('#comment').val();
+    var newDay = $('#day').val();
+    var newMonth = $('#month').val();
+    var newYear = $('#year').val();
+
+    theEntry.set({
+        purchaseCurrency: newPurchaseCurrency,
+        picture: newPicture,
+        location:newLocation,
+        comment: newComment,
+        day: newDay,
+        month:newMonth,
+        year:newYear
+    });
+    console.log("New Entry Succesfully Added - Template");
+  });
+
+/*onclick = "addNewEntry()"*/
 function submitFunction() {
     var txt = confirm("Endtry Added !");
     if (txt) {
@@ -70,13 +112,14 @@ function addNewEntry(){
 }
 
 // read from the database
-function readJourney(){
+function readEntry(){
 
     var i = 0;
 
     var entries = database.ref("Accounts").child("account1").child(("journey" + i)).child(("entry" + i));
 
-    entries.child("day2").once("value").then(function(x) {
+
+    entries.child("date").once("value").then(function(x) {
       var journey = x.val();
       console.log(journey);
     })

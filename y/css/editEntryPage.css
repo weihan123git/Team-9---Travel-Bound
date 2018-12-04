@@ -8,7 +8,7 @@
 	}
 
 	#container{
-        height: 600px;
+		height: 600px;
         width: 60%;
 		margin: 3% 20% 0 20%;
 		border: 2px solid black;
@@ -26,7 +26,7 @@
 		border: 2px solid green;
 	}
 
-		#signoutDiv :hover {
+	#signoutDiv :hover {
 		border: 2px solid red;
 	}
 
@@ -41,13 +41,27 @@
     }
 
     #selectionBox{
-		border: 2px solid #FFFFFF;
+		border: 2px solid #000000;
 		border-radius: 5%;
 		overflow: hidden;
+<<<<<<< HEAD:editEntryPage/editEntryPage.css
+        height: 300px;
+        width: 60%;
+		margin: 0 20% 0% 20%;
+	}
+
+	#form {
+		color: white;
+		font-weight: bold;
+		text-align: center;
+		float: left;
+		margin: 0 35% 0 35%;
+=======
         height: 65%;
         width: 60%;
         margin: -4% 20% 0% 20%;
 		overflow-y: scroll;
+>>>>>>> 07d466cb54ef8e36e42e1e18540c4ec94d09ac0d:css/editEntryPage.css
 	}
 
 	.entryDivClass{
@@ -82,7 +96,7 @@
 
     #submitDiv{
 		width: 50%;
-		height: 120px;
+		height: 80px;
 		float: left;
 		margin: 2% 25% 0 25%;
 	}
@@ -109,3 +123,5 @@
 		height: 30px;
 		margin: 0 41.5% 0 43.5%;
 	}
+
+	

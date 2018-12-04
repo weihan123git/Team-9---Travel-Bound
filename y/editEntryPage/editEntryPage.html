@@ -12,16 +12,33 @@
             </div>
             <div id="signoutDiv"><img id ="signoutButton" src="../images/signout.jpg"></div>
             <div id = "selectionBox">
+
+                <form id = "form">
+                    Purchase Currency:<br>
+                    <input type = "text" id = "purchaseCurrency"><br>
+                    Picture:<br>
+                    <input type = "text" id = "picture"><br>
+                    Location:<br>
+                    <input type = "text" id = "location"><br>
+                    Comment:<br>
+                    <input type = "text" id = "comment"><br>
+                    Day:<br>
+                    <input type = "text" id = "day"><br>
+                    Month:<br>
+                    <input type = "text" id = "month"><br>
+                    Year:<br>
+                    <input type = "text" id = "year"><br>
+                </form>
+
             </div>
             <div id = "submitDiv" >
-                <div id = "submitButton" onclick = "addNewEntry()" action="../journeyPage/journeys.html"></div>
+                <div id = "submitButton" name = "submitButton"  action="../journeyPage/journeys.html"></div>
                 <aside id = "submit" >Submit</aside>
             </div>
         </div>
         <script src="https://www.gstatic.com/firebasejs/5.5.8/firebase.js"></script>
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script src="./editEntryPage.js"></script>
-        <script src = "../JavascriptF/database.js"></script>
         <script src="../javascriptF/signout.js"></script>
     </body>
 </html>
