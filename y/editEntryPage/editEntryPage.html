@@ -4,6 +4,10 @@
         <title>New Entry</title>
         <meta charset = "utf-8">
         <link rel = "stylesheet" type = "text/css" href = "../css/editEntryPage.css">
+        <script src="https://www.gstatic.com/firebasejs/5.5.8/firebase.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script src="./editEntryPage.js"></script>
+        
     </head>
     <body>
         <div id = "container">
@@ -12,7 +16,6 @@
             </div>
             <div id="signoutDiv"><img id ="signoutButton" src="../images/signout.jpg"></div>
             <div id = "selectionBox">
-
                 <form id = "form">
                     Purchase Currency:<br>
                     <input type = "text" id = "purchaseCurrency"><br>
@@ -29,16 +32,12 @@
                     Year:<br>
                     <input type = "text" id = "year"><br>
                 </form>
-
             </div>
             <div id = "submitDiv" >
                 <div id = "submitButton" name = "submitButton"  action="../journeyPage/journeys.html"></div>
                 <aside id = "submit" >Submit</aside>
             </div>
         </div>
-        <script src="https://www.gstatic.com/firebasejs/5.5.8/firebase.js"></script>
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-        <script src="./editEntryPage.js"></script>
         <script src="../javascriptF/signout.js"></script>
     </body>
 </html>

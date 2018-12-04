@@ -6,17 +6,17 @@ var config = {
     storageBucket: "travelbound-c0cd0.appspot.com",
     messagingSenderId: "1038974227621"
     };
-
+  
     firebase.initializeApp(config);
-
+  
   var database = firebase.database();
 
   //the user's ID - allows us to change user specific data
-  var userCode = sessionStorage.getItem("userCode");
+  var userID = sessionStorage.getItem("userCode");
 
 $(document).ready(function() {
     
-    console.log(userCode);
+    console.log("the user code is " + userID);
 
     readEntry();
     database.ref().child('Accounts/account1/journeys/').once('value', snap => {
@@ -33,7 +33,7 @@ window.addEventListener("DOMContentLoaded", function(event) {
   });
   */
 
-  var theEntry = firebase.database().ref().child('Accounts').child(userCode).child('journeys').child('journey0').child('entries').child('entry0');
+  var theEntry = firebase.database().ref().child("Accounts").child('account1').child('journeys').child('journey0').child('entries').child('entry0');
 
   $('#submitButton').click(function() {
     var newPurchaseCurrency = $('#purchaseCurrency').val();
@@ -57,38 +57,9 @@ window.addEventListener("DOMContentLoaded", function(event) {
   });
 
 /*onclick = "addNewEntry()"*/
-function submitFunction() {
-    var txt = confirm("Endtry Added !");
-    if (txt) {
-        // back to home page if click ok
-        window.location = "../firstPage/firstpage.html"
-    } else {
-        // stay in the same page if click cancle
-    }
-    document.getElementById("demo").innerHTML = txt;
-}
-
-$(function() {
-var i;
-var count = 0;
-var firebaseCount = 5;
-
-
-for (i = 0; i < firebaseCount; i++) {
-
-    var div1 = $("<div id='entryDiv' class='entryDivClass'></div>");
-    var someID = 'entryDiv' + count;
-    $(div1).attr('id', someID);
-    var div2 = $('<img id = "entryImageDiv" src = "https://dummyimage.com/80x80/4fa6a0/ffffff&text=Placeholder+Image">');
-    var div3 = $("<p id = 'entryTitleDiv'>Here is your last entry</p>");
-    $("#selectionBox").append(div1);
-    $("#entryDiv" + count).append(div2, div3);
-    count++;
- }
-
 //create a new Entry
-function addNewEntry(){
-
+function addNewEntry() {
+    
     var newEntry = {
         purchaseCurrency: "JPY",
         picture: "nothing for now",
@@ -104,25 +75,22 @@ function addNewEntry(){
     var i = 0;
 
     var entries = database.ref("Accounts").child("account1").child("journeys").child(("journey" + i)).child(("entry" + i));
-
+    
     entries.update(newEntry);
     console.log("Entry" + i + " successfully added to journey" + i);
     window.alert("Submit Successfully");
     window.location.href = "../journeyPage/journeys.html";
-}
+}   
 
 // read from the database
 function readEntry(){
 
     var i = 0;
-
+  
     var entries = database.ref("Accounts").child("account1").child(("journey" + i)).child(("entry" + i));
-
 
     entries.child("date").once("value").then(function(x) {
       var journey = x.val();
       console.log(journey);
     })
   }
-
-})

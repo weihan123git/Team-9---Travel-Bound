@@ -1,10 +1,3 @@
-
-/* This is for another page. Trying to fix the <onClick> button
-window.addEventListener("DOMContentLoaded", function(event) {
-  document.getElementById('elementName').addEventListener("change", validateDate);
-});
-*/
-
 (function() {
   var firebase = app_firebase;
 
