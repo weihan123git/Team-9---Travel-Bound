@@ -1,11 +1,22 @@
-var config = {
-  apiKey: "AIzaSyBqhsUHN9SFzz2r2QzQdA_PeNqG1lrKD-g",
-  authDomain: "travelbound-c0cd0.firebaseapp.com",
-  databaseURL: "https://travelbound-c0cd0.firebaseio.com",
-  projectId: "travelbound-c0cd0",
-  storageBucket: "travelbound-c0cd0.appspot.com",
-  messagingSenderId: "1038974227621"
-  };
-  firebase.initializeApp(config);
+/* This is for another page. Trying to fix the <onClick> button
+window.addEventListener("DOMContentLoaded", function(event) {
+  document.getElementById('elementName').addEventListener("change", validateDate);
+});
+*/
 
-var database = firebase.database();
+(function() {
+  var firebase = app_firebase;
+
+  var user = firebase.auth().currentUser;
+  var name, email, photoUrl, uid, emailVerified;
+
+  firebase.auth().onAuthStateChanged(function(user){
+    firebase.database().ref("Accounts/").child(user.uid).update(
+      {
+        "name": user.displayName,
+        "email": user.email,
+        "defaultCurrency": "CAD"
+      });
+      console.log("New user added to database");
+  });
+})()

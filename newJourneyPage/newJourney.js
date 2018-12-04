@@ -82,6 +82,7 @@ function addNewJourney() {
     }
   }
 
+/*
 function addJourney(country, startDay, startMonth, startYear, day2, month2, year2) {
 
   let userId = firebase.auth().currentUser.uid;
@@ -99,6 +100,7 @@ function addJourney(country, startDay, startMonth, startYear, day2, month2, year
 
   console.log("This also worked!");
 }
+*/
 
   var i = 0;
 

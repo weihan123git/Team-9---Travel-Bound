@@ -95,7 +95,6 @@
 		background-repeat: no-repeat;
 		background-image: url(../images/submit2.png);
 		cursor:pointer;
-<<<<<<< HEAD
         margin: 10px 0 0 40%;
     }
 
@@ -106,10 +105,6 @@
         font-size: 14pt;
         margin: 20px 0 0 43.5%;
     }
-=======
->>>>>>> cdf2f46009110956e129b42efbca5c4cdd890ee1
-		margin: 0 auto;
-	}
 
 	#submit {
 		float: left;
