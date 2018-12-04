@@ -7,7 +7,7 @@
     $(function() {
     var i;
     var count = 0;
-    var firebaseCount = 0;
+    var firebaseCount = 3;
 
     if (firebaseCount === 0) {
       var div2 = $("<div class='trip1'></div>");

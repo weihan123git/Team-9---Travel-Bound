@@ -17,9 +17,10 @@ var config = {
 $(document).ready(function() {
     
     console.log("the user code is " + userID);
+    console.log("the entry" + theEntry);
 
     readEntry();
-    database.ref().child('Accounts/account1/journeys/').once('value', snap => {
+    database.ref().child('Accounts').child(userID).child('journeys/').once('value', snap => {
       console.log(snap.val());
       var journeyObj = snap.val();
       var journeysCreated = Object.keys(journeyObj);
@@ -27,13 +28,12 @@ $(document).ready(function() {
     });
     console.log("Everything worked");
 });
-/*
+/*  
 window.addEventListener("DOMContentLoaded", function(event) {
     document.getElementById('submitButton').addEventListener("change", addNewEntry());
   });
   */
-
-  var theEntry = firebase.database().ref().child("Accounts").child('account1').child('journeys').child('journey0').child('entries').child('entry0');
+  var theEntry = firebase.database().ref().child('Accounts').child(userID).child('journeys').child('journey0').child('entries').child('entry0');
 
   $('#submitButton').click(function() {
     var newPurchaseCurrency = $('#purchaseCurrency').val();
