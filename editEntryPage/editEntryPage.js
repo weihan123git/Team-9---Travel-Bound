@@ -35,7 +35,6 @@ window.addEventListener("DOMContentLoaded", function(event) {
 
   var theEntry = firebase.database().ref().child('Accounts').child(userCode).child('journeys').child('journey0').child('entries').child('entry0');
 
-<<<<<<< HEAD
   $('#submitButton').click(function() {
     var newPurchaseCurrency = $('#purchaseCurrency').val();
     var newPicture = $('#picture').val();
@@ -58,7 +57,6 @@ window.addEventListener("DOMContentLoaded", function(event) {
   });
 
 /*onclick = "addNewEntry()"*/
-=======
 function submitFunction() {
     var txt = confirm("Endtry Added !");
     if (txt) {
@@ -88,7 +86,6 @@ for (i = 0; i < firebaseCount; i++) {
     count++;
  }
 
->>>>>>> 07d466cb54ef8e36e42e1e18540c4ec94d09ac0d
 //create a new Entry
 function addNewEntry(){
 
@@ -121,11 +118,8 @@ function readEntry(){
 
     var entries = database.ref("Accounts").child("account1").child(("journey" + i)).child(("entry" + i));
 
-<<<<<<< HEAD
+
     entries.child("date").once("value").then(function(x) {
-=======
-    entries.child("day2").once("value").then(function(x) {
->>>>>>> 07d466cb54ef8e36e42e1e18540c4ec94d09ac0d
       var journey = x.val();
       console.log(journey);
     })
