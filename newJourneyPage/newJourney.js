@@ -101,9 +101,8 @@ function addJourney(country, startDay, startMonth, startYear, day2, month2, year
   console.log("This also worked!");
 }
 */
-
   var i = 0;
-
+  
   var journeys = database.ref("Accounts").child("account1").child("journeys").child("journey" + i);
 
   journeys.update(newJourney);
