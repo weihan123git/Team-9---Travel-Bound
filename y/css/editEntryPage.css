@@ -107,7 +107,7 @@
 		background-position: center;
 		background-size: contain;
 		cursor:pointer;
-        margin:-5px 0 0 40%;
+        margin:-97px 0 0 40%;
     }
 
 
@@ -118,4 +118,18 @@
 		font-size: 14pt;
 		height: 30px;
 		margin: 0 41.5% 0 43.5%;
+	}
+
+	#home {
+		border-radius: 100%;
+		border: 2px solid rgb(50, 252, 242);
+		width: 80px;
+		height: 80px;
+		margin-left: 30%;
+		margin-top: 30px;
+		background-image: url(../images/home.png);
+	}
+
+	#home:hover {
+		border: 2px solid red;
 	}
