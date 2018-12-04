@@ -14,7 +14,6 @@
 		border: 2px solid black;
 		background-color: rgba(100, 100, 100, 0.6);
 		border-radius: 2%;
-        box-shadow: 10px 10px 10px black;
 	}
 
 	#signoutButton {
@@ -104,8 +103,8 @@
         font-family: 'Handlee', cursive;
         font-size: 14pt;
         margin: 20px 0 0 43.5%;
-    }
-
+	}
+	
 	#submit {
 		float: left;
 		color: white;

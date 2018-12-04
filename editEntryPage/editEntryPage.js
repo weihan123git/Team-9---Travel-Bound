@@ -15,19 +15,8 @@ $(document).ready(function() {
     console.log("Everything worked");
 });
 
-function submitFunction() {
-    var txt = confirm("Endtry Added !");
-    if (txt) {
-        // back to home page if click ok
-        window.location = "../firstPage/firstpage.html"
-    } else {
-        // stay in the same page if click cancle
-    }
-    document.getElementById("demo").innerHTML = txt;
-}
-
 //create a new Entry
-function addNewEntry(){
+function addNewEntry() {
     
     var newEntry = {
         purchaseCurrency: "JPY",
@@ -47,6 +36,8 @@ function addNewEntry(){
     
     entries.update(newEntry);
     console.log("Entry" + i + " successfully added to journey" + i);
+    window.alert("Submit Successfully");
+    window.location.href = "../journeyPage/journeys.html";
 }   
 
 // read from the database
