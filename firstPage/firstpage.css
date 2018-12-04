@@ -2,14 +2,16 @@
 	@import url('https://fonts.googleapis.com/css?family=Handlee');
 
 	body {
-		background-image: url(../images/lisbon_background_new.jpg);
+		background-image: url(../images/clouds.jpg);
+		background-position: contain;
+		background-repeat: no-repeat;
 	}
 
 	#container{
         height: 600px;
         width: 60%;
-		margin: 0 20% 0 20%;
-		background-color: rgba(36, 36, 36, 0.7);
+		margin: 3% 20% 0 20%;
+		background-color: rgba(69, 69, 69, 0.6);
 		border-radius: 2%;
 	}
 
@@ -20,6 +22,7 @@
 		float: right;
 		margin-right: 5%;
 		margin-top: -8%;
+		border: 2px solid green;
 	}
 
 		#signoutDiv :hover {

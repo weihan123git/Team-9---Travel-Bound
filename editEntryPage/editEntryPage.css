@@ -2,14 +2,17 @@
 	@import url('https://fonts.googleapis.com/css?family=Handlee');
 
 	body {
-		background-image: url(../images/lisbon_background_new.jpg);
+		background-image: url(../images/beach2.jpg);
+		background-repeat: no-repeat;
+		background-position: center;
 	}
 
 	#container{
         height: 600px;
         width: 60%;
-		margin: 0 20% 0 20%;
-		background-color: rgba(36, 36, 36, 0.7);
+		margin: 3% 20% 0 20%;
+		border: 2px solid black;
+		background-color: rgba(100, 100, 100, 0.6);
 		border-radius: 2%;
 	}
 
@@ -19,7 +22,8 @@
 		border-radius: 50%;
 		float: right;
 		margin-right: 7%;
-		margin-top: -8%;
+		margin-top: -12%;
+		border: 2px solid green;
 	}
 
 		#signoutDiv :hover {
@@ -81,7 +85,7 @@
 		float: left;
 		margin: 2% 25% 0 25%;
 	}
-	
+
 	#submitButton{
 		border-radius: 50%;
 		width: 80px;
@@ -90,28 +94,14 @@
 		background-repeat: no-repeat;
 		background-image: url(../images/submit.png);
 		cursor:pointer;
-<<<<<<< HEAD
-    }
-
-#submit {
-    float: left;
-    color: white;
-    font-family: 'Handlee', cursive;
-    font-size: 14pt;
-    margin: 140px 0 0 -7.5%;
-}
-=======
 		margin: 0 auto;
 	}
-    
+
 	#submit {
 		float: left;
 		color: white;
-		font-family: 'Handlee', cursive; 
+		font-family: 'Handlee', cursive;
 		font-size: 14pt;
 		height: 30px;
 		margin: 0 41.5% 0 41.5%;
 	}
-	
-	
->>>>>>> 216a727ced2ea02c068782e2e812851a409164fb

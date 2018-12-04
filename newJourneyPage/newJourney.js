@@ -121,4 +121,3 @@ function readJourney(){
     console.log(journey);
   })
 }
->>>>>>> 216a727ced2ea02c068782e2e812851a409164fb

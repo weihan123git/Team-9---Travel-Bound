@@ -2,7 +2,9 @@
 	@import url('https://fonts.googleapis.com/css?family=Handlee');
 
 	body {
-		background-image: url(../images/chiado.jpg);
+		background-image: url(../images/bridge.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
 	}
 	#container1 {
 		margin-left: auto;
@@ -10,8 +12,9 @@
 		border: 2px solid;
 		width: 60%;
 		height: 600px;
-		background-color: rgba(0,0,255,0.3);
+		background-color: rgba(255,255,255,0.2);
 		border-radius: 2%;
+		margin-top: 3%;
 	}
 
 	#signoutButton {
@@ -21,6 +24,7 @@
 		float: right;
 		margin-right: 8%;
 		margin-top: -12%;
+		border: 2px solid green;
 	}
 
 		#signoutDiv :hover {
@@ -33,51 +37,64 @@
 		font-family: 'Salsa', cursive;
 		font-size: 37pt;
 		letter-spacing: 0.1em;
+		 text-shadow: -2px 0 grey, 0 2px grey, 2px 0 grey, 0 -2px grey;
 	}
 
 	#setting1 {
 		margin: 0 35% 0 35%;
 		width: 30%;
-		border: 1px solid #FFFFFF;
-		color: #FFFFFF;
+		border: 2px solid #FFFFFF;
+		color: grey;
+		background-color: white;
 		border-radius: 8%;
 		height: 50px;
 		text-align: center;
 		font-family: 'Handlee', cursive;
-		font-size: 11pt;
+		font-size: 15pt;
+		line-height: 20px;
 	}
 
 	#setting2 {
 		margin: 0 35% 0 35%;
 		width: 30%;
-		border: 1px solid #FFFFFF;
-		color: #FFFFFF;
+		border: 2px solid #FFFFFF;
+		color: grey;
+		background-color: white;
 		border-radius: 8%;
 		height: 50px;
+		line-height: 20px;
 		margin-top: 50px;
 		text-align: center;
 		font-family: 'Handlee', cursive;
-		font-size: 11pt;
+		font-size: 15pt;
 	}
 
 	#setting3 {
 		margin: 0 35% 0 35%;
 		width: 30%;
-		border: 1px solid #FFFFFF;
-		color: #FFFFFF;
+		border: 2px solid #FFFFFF;
+		color: grey;
+		line-height: 20px;
 		border-radius: 8%;
 		height: 50px;
+		background-color: white;
 		margin-top: 50px;
 		text-align: center;
 		font-family: 'Handlee', cursive;
-		font-size: 11pt;
+		font-size: 15pt;
 	}
+	#setting1:hover {
+	background-color: grey;
+	color:white;
+}
 
     #setting2:hover {
 		background-color: grey;
+		color:white;
 	}
 	#setting3:hover {
 		background-color: grey;
+		color:white;
 	}
 
 	#home {
@@ -101,7 +118,10 @@
 		font-family: 'Handlee', cursive;
 		float: left;
 		width: 15%;
+		margin-left: -2px;
 		margin-left: 47.7%;
 		margin-top: 10px;
 		color: #FFFFFF;
+		font-size: 15pt;
+		 text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 	}

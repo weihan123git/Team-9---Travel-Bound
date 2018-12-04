@@ -20,6 +20,7 @@
 		float: right;
 		margin-right: 5%;
 		margin-top: -8%;
+		border: 2px solid green;
 	}
 
 		#signoutDiv :hover {
