@@ -5,12 +5,13 @@
 	width: 60%;
 	height: 600px;
 	border-radius: 2%;
-	background-color: rgba(36, 36, 36, 0.7);
-	margin: 0 20% 0 20%;
+	background-color: rgba(36, 36, 36, 0.6);
+	margin: 3% 20% 0 20%;
+	border: solid black 2px;
 	}
 
 	body {
-		background-image: url(../images/lisbon_background_new.jpg);
+		background-image: url(../images/boathouse.jpg);
 	}
 
 	#signoutButton {
@@ -20,9 +21,10 @@
 		float: right;
 		margin-right: 5%;
 		margin-top: -8%;
+		border: 2px solid green;
 	}
 
-	#signoutButton img:hover {
+	#signoutDiv img:hover {
 		border: 2px solid red;
 	}
 
@@ -98,7 +100,7 @@
 		cursor:pointer;
 		-webkit-border-radius: 50%;
 		border-radius: 50%;
-		background-image: url(../images/begin.jpg);
+		background-image: url(../images/begin2.png);
 		background-size: contain;
 	 background-color: transparent;
 	 background-repeat: no-repeat;
@@ -109,6 +111,10 @@
 	input[type=date]{
 		height: 50px;
 		cursor:pointer;
+	}
+
+	#country{
+		margin-left: 10pt;
 	}
 
 	#selectCountry {
