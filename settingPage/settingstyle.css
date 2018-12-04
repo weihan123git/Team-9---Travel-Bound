@@ -13,11 +13,8 @@
 		height: 600px;
 		background-color: rgba(255,255,255,0.2);
 		border-radius: 2%;
-<<<<<<< HEAD
         box-shadow: 10px 10px 10px black;
-=======
 		margin-top: 3%;
->>>>>>> cdf2f46009110956e129b42efbca5c4cdd890ee1
 	}
 
 	#signoutButton {
