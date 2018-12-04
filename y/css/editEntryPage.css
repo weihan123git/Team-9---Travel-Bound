@@ -99,7 +99,7 @@
 
 	#submitButton{
 		border-radius: 55%;
-		width: 18%;
+		width: 80px;
 		height: 80px;
 		border: 1px solid skyblue;
 		background-repeat: no-repeat;
@@ -119,5 +119,3 @@
 		height: 30px;
 		margin: 0 41.5% 0 43.5%;
 	}
-
-	
