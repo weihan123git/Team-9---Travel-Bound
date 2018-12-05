@@ -20,7 +20,7 @@ $(document).ready(function() {
     console.log("the entry" + theEntry);
 
     readEntry();
-    database.ref().child('Accounts').child(userID).child('journeys/').once('value', snap => {
+    database.ref().child('Accounts').child(userID).child('journeys').once('value', snap => {
       console.log(snap.val());
       var journeyObj = snap.val();
       var journeysCreated = Object.keys(journeyObj);

@@ -1,4 +1,3 @@
-
 var config = {
   apiKey: "AIzaSyCgOgIDUcm6-LEGlefRI57fLJ9EkeLghEA",
   authDomain: "team-9-travel-bound.firebaseapp.com",
@@ -8,6 +7,5 @@ var config = {
   messagingSenderId: "102236553259"
 };
 firebase.initializeApp(config);
-
 
 var database = firebase.database();
