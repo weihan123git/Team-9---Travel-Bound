@@ -1,3 +1,4 @@
+// add data to firebase 
 (function() {
   var firebase = app_firebase;
 

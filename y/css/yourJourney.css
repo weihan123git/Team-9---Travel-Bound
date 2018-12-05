@@ -1,10 +1,10 @@
 	@import url('https://fonts.googleapis.com/css?family=Salsa');
 	@import url('https://fonts.googleapis.com/css?family=Handlee');
-
+    /* css for body background img*/
     body {
         background-image: url(../images/ibiza.png)  ;
 	}
-
+    /* css for signout button*/
 	#signoutButton {
 		width: 50px;
 		height: 50px;
@@ -14,7 +14,7 @@
 		margin-top: -11%;
 		border: 2px solid green;
 	}
-
+    /* css for main app area*/
 	#container1 {
 		margin: 3% 20% 0 20%;
 		border: 2px solid;
@@ -23,7 +23,7 @@
 		background-color: rgba(36, 36, 36, 0.7);
 		border-radius: 2%;
 	}
-
+    /* css */
     #update {
         border: 1px solid white;
         border-radius: 10%;
@@ -36,12 +36,11 @@
         position: absolute;
         margin: -50px 0 0 50%;
     }
-
+    /* css for title */
     #titlediv {
         margin: 55px 0 0 0;
     }
-
-
+    /* css for title */
 	#title {
 		text-align: center;
 		font-family: 'Salsa', cursive;
@@ -50,7 +49,7 @@
 		letter-spacing: 0.1em;
 		margin-top: -35px;
 	}
-
+    /* css for trip div */
     #trip {
         float: left;
         width: 80%;
@@ -60,7 +59,7 @@
         border-radius: 5%;
         overflow-y: scroll;
     }
-
+    /* css for trip one*/
     .trip1 {
         float: left;
         width: 80%;
@@ -70,17 +69,7 @@
         border: 2px solid white;
         border-radius: 10%;
     }
-
-    #trip2 {
-        float: left;
-        width: 80%;
-        height: 150px;
-        background-color: skyblue;
-        margin: 30px 0 0 10%;
-        border: 2px solid white;
-        border-radius: 10%;
-    }
-
+    /* css for img in post */
     #img {
         float: left;
         height: 115px;
@@ -90,79 +79,80 @@
         color: white;
         margin: 15.5px 0 0 5%;
     }
-
+    /* css for comment div in post*/
     #des {
         float: left;
         height: 90px;
         width: 45%;
         margin: 25px 0 0 5%;
     }
-
+    /* css for comment in post */
     #mood {
         margin: 5% 0 0 4%;
         font-family: 'Handlee', cursive;
         color: whitesmoke;
 				font-size:15 pt;
     }
+    /* css for serch buton*/
+	#noJ {
+		margin: 0 0 0 4%;
+		font-family: 'Handlee', cursive;
+		color: whitesmoke;
+		font-size: 20pt;
+	}
+    /* css for edit button */
+	#hi{
+		border-radius: 50%;
+		margin-left: 20%;
+		margin-top: 5%;
+	}
+    /* css for img hover */
+    img:hover {
+		border: 2px solid red;
+	}
 
-		#noJ {
-			margin: 0 0 0 4%;
-			font-family: 'Handlee', cursive;
-			color: whitesmoke;
-			font-size: 20pt;
-		}
-
-		#hi{
-			border-radius: 50%;
-			margin-left: 20%;
-			margin-top: 5%;
-		}
-
-			img:hover {
-			border: 2px solid red;
-		}
-
-
+    /* css for placeholder img*/
     #placeholder {
         width: 100%;
         height: 100%;
     }
-
+    /* css for zoom button*/
     #zoom {
         float: left;
         width: 5%;
         height: 30px;
         margin: 55px 0 0 0;
     }
-
+    /* css for edit button*/
     #edit {
         float: left;
         width: 5%;
         height: 30px;
         margin: 55px 0 0 2%;
     }
-
+    /* css for save button */
     #download {
         float: left;
         width: 5%;
         height: 30px;
         margin: 55px 0 0 2%;
     }
-
+    /* css for zomm pic*/
     #picofzoom {
         width: 100%;
         height: 100%;
     }
-
+    /* css for edit pic*/
     #picofedit {
         width: 100%;
         height: 100%;
     }
-
+    /* css for save pic*/
     #picofdownload {
         width: 100%;
         height: 100%;
     }
+    /* css for home button div*/
     #home {
         float: left;
 		border-radius: 100%;
@@ -172,7 +162,7 @@
 		margin: 15px 0 0 45%;
 		background-image: url(../images/home.png);
 	}
-
+    /* css for home button hover*/
 	#home:hover {
 		border: 2px solid red;
 	}

@@ -1,4 +1,4 @@
-
+ // read from firebse and add journey
   $(document).ready(function() {
 
   var database = firebase.database();

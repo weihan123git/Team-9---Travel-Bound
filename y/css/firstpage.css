@@ -1,12 +1,12 @@
 	@import url('https://fonts.googleapis.com/css?family=Salsa');
 	@import url('https://fonts.googleapis.com/css?family=Handlee');
-
+    /* css for body background img*/
 	body {
 		background-image: url(../images/clouds.jpg);
 		background-position: contain;
 		background-repeat: no-repeat;
 	}
-
+    /* css for our main app area */
 	#container{
         height: 600px;
         width: 60%;
@@ -14,7 +14,7 @@
 		background-color: rgba(69, 69, 69, 0.6);
 		border-radius: 2%;
 	}
-
+    /* css for the signout button*/
 	#signoutButton {
 		width: 50px;
 		height: 50px;
@@ -24,11 +24,11 @@
 		margin-top: -8%;
 		border: 2px solid green;
 	}
-
-		#signoutDiv :hover {
+    /* css for hover on signout button*/
+    #signoutDiv :hover {
 		border: 2px solid red;
 	}
-
+    /* css for title*/
     #titleDiv{
 		font-family: 'Salsa', cursive;
 		color: #FFFFFF;
@@ -38,7 +38,7 @@
         text-align: center;
 		letter-spacing: 0.1em;
     }
-
+    /* css for placeholder img*/
     #imageBox{
 		border: 2px solid #FFFFFF;
 		border-radius: 5%;
@@ -47,8 +47,7 @@
         width: 60%;
         margin: 0 20% 0 20%;
     }
-
-
+    /* css for journey button div*/
     #journeyDiv{
 		border-radius: 100%;
 		color: white;
@@ -62,7 +61,7 @@
 		border: 2px solid red;
 		cursor:pointer;
     }
-
+    /* css for edit entry button div*/
     #editEntryDiv{
 		border-radius: 100%;
 		color: white;
@@ -76,7 +75,7 @@
 		border: 2px solid red;
 		cursor:pointer;
     }
-
+    /* css for setting button div*/
     #settingsDiv{
 		border-radius: 100%;
 		color: white;
@@ -90,29 +89,7 @@
 		border: 2px solid red;
 		cursor:pointer;
     }
-
-
-	#journ {
-		font-family: 'Handlee', cursive;
-		font-size: 11pt;
-		text-align: center;
-		margin-top: 22px;
-	}
-
-	#enty {
-		font-family: 'Handlee', cursive;
-		font-size: 11pt;
-		text-align: center;
-		margin-top: 22px;
-	}
-
-	#set {
-		font-family: 'Handlee', cursive;
-		font-size: 11pt;
-		text-align: center;
-		margin-top: 22px;
-	}
-
+    /* css for journey word*/
 	#def1 {
 		letter-spacing: 0.1em;
 		font-family: 'Handlee', cursive;
@@ -122,6 +99,7 @@
 		margin-left: 23.5%;
 		margin-top: 15px;
 	}
+    /* css for entry word*/
 	#def2 {
 		letter-spacing: 0.1em;
 		font-family: 'Handlee', cursive;
@@ -131,6 +109,7 @@
 		margin-left: 3.5%;
 		margin-top: 15px;
 	}
+    /* css fir set word*/
 	#def3 {
 		letter-spacing: 0.1em;
 		font-family: 'Handlee', cursive;

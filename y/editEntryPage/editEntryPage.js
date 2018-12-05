@@ -1,3 +1,4 @@
+// link to fire base
 var config = {
     apiKey: "AIzaSyBqhsUHN9SFzz2r2QzQdA_PeNqG1lrKD-g",
     authDomain: "travelbound-c0cd0.firebaseapp.com",
@@ -10,8 +11,7 @@ var config = {
     firebase.initializeApp(config);
   
   var database = firebase.database();
-
-  //the user's ID - allows us to change user specific data
+//the user's ID - allows us to change user specific data
   var userID = sessionStorage.getItem("userCode");
 
 $(document).ready(function() {

@@ -1,12 +1,13 @@
 	@import url('https://fonts.googleapis.com/css?family=Salsa');
 	@import url('https://fonts.googleapis.com/css?family=Handlee');
 
+    /* css for the all page background img */
 	body {
 		background-image: url(../images/beach2.jpg);
 		background-repeat: no-repeat;
 		background-position: center;
 	}
-
+    /* css for the main app outline*/
 	#container{
 		height: 600px;
         width: 60%;
@@ -15,7 +16,7 @@
 		background-color: rgba(100, 100, 100, 0.6);
 		border-radius: 2%;
 	}
-
+    /* css for the signout button*/
 	#signoutButton {
 		width: 50px;
 		height: 50px;
@@ -25,11 +26,11 @@
 		margin-top: -10%;
 		border: 2px solid green;
 	}
-
+    /* css for hover on signout Button*/
 	#signoutDiv :hover {
 		border: 2px solid red;
 	}
-
+    /* css for the our title*/
     #titleDiv{
 		font-family: 'Salsa', cursive;
 		color: #FFFFFF;
@@ -39,7 +40,7 @@
         text-align: center;
 		letter-spacing: 0.1em;
     }
-
+    /* css for the textareas */
     #selectionBox{
 		border: 2px solid #000000;
 		border-radius: 5%;
@@ -47,7 +48,7 @@
         width: 60%;
 		margin: 0 20% 0% 20%;
 	}
-
+    /* css for the textarea with scroll*/
 	#form {
 		color: white;
 		font-weight: bold;
@@ -59,44 +60,14 @@
         margin: 0 20% 0 20%;
 		overflow-y: scroll;
 	}
-
-	.entryDivClass{
-		border: 2px solid #FFFFFF;
-		border-radius: 5%;
-		overflow: hidden;
-        height: 150px;
-        width: 88%;
-		margin: 2% 20% 2% 6%;
-	}
-
-	#entryImageDiv{
-		border: 2px solid  #FFFFFF;
-		height: 80%;
-		width: 30%;
-		margin: 3% 10% 2% 3%;
-		border-radius: 4%;
-		float: left;
-	}
-
-	#entryTitleDiv{
-		height: 80%;
-		width: 50%;
-		float: left;
-		border: 2px solid #FFFFFF;
-		margin: 3% 0 0 0;
-		border-radius: 4%;
-		text-align: center;
-		font-family: 'Handlee', cursive;
-		color: #FFFFFF;
-	}
-
+    /* css for div containing submit button*/
     #submitDiv{
 		width: 50%;
 		height: 80px;
 		float: left;
 		margin: 2% 25% 0 25%;
 	}
-
+    /* css for submit button*/
 	#submitButton{
 		border-radius: 55%;
 		width: 80px;
@@ -110,7 +81,7 @@
         margin:-97px 0 0 40%;
     }
 
-
+    /* css for submit word*/
 	#submit {
 		float: left;
 		color: white;

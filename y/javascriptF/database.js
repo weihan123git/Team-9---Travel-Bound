@@ -1,3 +1,4 @@
+// link to firbase
 var config = {
   apiKey: "AIzaSyCgOgIDUcm6-LEGlefRI57fLJ9EkeLghEA",
   authDomain: "team-9-travel-bound.firebaseapp.com",

@@ -1,3 +1,4 @@
+// firbase
 (function(){
     var config = {
         apiKey: "AIzaSyBqhsUHN9SFzz2r2QzQdA_PeNqG1lrKD-g",

@@ -1,3 +1,4 @@
+// link to firebase
 var config = {
   apiKey: "AIzaSyBqhsUHN9SFzz2r2QzQdA_PeNqG1lrKD-g",
   authDomain: "travelbound-c0cd0.firebaseapp.com",
@@ -11,6 +12,7 @@ var config = {
 
 var database = firebase.database();
 
+// check if dates are selected
 $(document).ready(function() {
 
   (function() {
@@ -41,7 +43,7 @@ $(document).ready(function() {
     });
 })();
 });
-
+// hardcold data base for currency seleted 
 function functionCountry() {
  var country1 = $("#selectCountry :selected").text();
  switch (country1) {

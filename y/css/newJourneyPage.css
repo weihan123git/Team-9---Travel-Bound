@@ -1,19 +1,19 @@
 	@import url('https://fonts.googleapis.com/css?family=Salsa');
 	@import url('https://fonts.googleapis.com/css?family=Handlee');
-
+    /* css for main app area*/
 	#container {
-	width: 60%;
-	height: 600px;
-	border-radius: 2%;
-	background-color: rgba(36, 36, 36, 0.6);
-	margin: 3% 20% 0 20%;
-	border: solid black 2px;
+	   width: 60%;
+	   height: 600px;
+	   border-radius: 2%;
+	   background-color: rgba(36, 36, 36, 0.6);
+	   margin: 3% 20% 0 20%;
+	   border: solid black 2px;
 	}
-
+    /* css for body background img*/
 	body {
 		background-image: url(../images/boathouse.jpg);
 	}
-
+    /* css for signout button */
 	#signoutButton {
 		width: 50px;
 		height: 50px;
@@ -23,52 +23,52 @@
 		margin-top: -8%;
 		border: 2px solid green;
 	}
-
+    /* css for button hover */
 	#signoutDiv img:hover {
 		border: 2px solid red;
 	}
-
+    /* css for end date word*/
 	#endDate{
 		float: left;
 		width: 40%;
 		display: inline-block;
 	}
-
+    /* css for start date word*/
 	#starDate{
 		float: left;
 		width: 40%;
 		display:inline-block;
 	}
-
+    /* css for body*/
 	#background{
 		width: 100%;
 		background-repeat: no-repeat;
 		background-size: cover;
 	}
-
+    /* css for title */
 	#heading {
 		text-align: center;
 		font-family: 'Salsa', cursive;
 		font-size: 35pt;
 		color: white;
 	}
-
+    /* css for the currency area*/
 	#formDiv {
 		margin: auto;
 		width: 40%;
 	}
-
+    /* css for drop down*/
 	#CountryDiv{
 		margin: 30px 0 0 32%;
 	}
-
+    /* css for currency convert */
 	#CurrencyDiv{
 		color: #FFFFFF;
 		margin: 30px 0 0 30%;
 		font-family: 'Handlee', cursive;
 		font-size: 15pt;
 	}
-
+    /* css for date div */
 	#date1Div{
 		margin: 40px 0% 0 0;
 		padding-left: 10px;
@@ -76,24 +76,24 @@
 		text-align: center;
 		font-family: 'Handlee', cursive;
 	}
-
+    /* css for date pick*/
 	#date2Div{
 		margin: 30px 0 0 0%;
 		color: white;
 		text-align: center;
 		font-family: 'Handlee', cursive;
 	}
-
+    /* css for begin button div*/
 	#buttonDiv{
 		margin: 30px 0 0 38%;
 	}
-
+    /* css for begin button */
 	#begin {
 		font-family: 'Handlee', cursive;
 		letter-spacing: 0.1em;
 		font-size: 13pt;
 	}
-
+    /* css for begin button*/
 	input[type=submit] {
 		height: 80px;
 		width: 80px;
@@ -102,28 +102,28 @@
 		border-radius: 50%;
 		background-image: url(../images/begin2.png);
 		background-size: contain;
-	 background-color: transparent;
-	 background-repeat: no-repeat;
-	 background-position: 0px 0px;
-	 vertical-align: middle;
+	    background-color: transparent;
+	    background-repeat: no-repeat;
+	    background-position: 0px 0px;
+	    vertical-align: middle;
 	}
-
+    /* css for date item */
 	input[type=date]{
 		height: 50px;
 		cursor:pointer;
 	}
-
+    /* css for country item*/
 	#country{
 		margin-left: 10pt;
 	}
-
+    /* css for data pick*/
 	#selectCountry {
         border: 1px solid #ccc;
         width: 120px;
         border-radius: 3px;
         overflow: hidden;
     }
-
+    /* css for date pick select*/
     #selectCountry select {
         width: 130%;
         border: none;
@@ -131,30 +131,19 @@
         background: transparent;
         background-image: none;
     }
-
+    /* css for country pick*/
     #selectCountry select:focus {
         outline: none;
     }
-
+    /* css for date div*/
     #date1Div input {
 	    border-radius: 10px;
     }
-
+    /* css for date div*/
     #date2Div input {
 	    border-radius: 10px;
     }
-	/**
-
-	input[type=date]::-webkit-inner-spin-button {
-		-webkit-appearance: none;
-		display: none;
-	}
-
-	input[type=date]::-webkit-calendar-picker-indicator {
-		-webkit-appearance: none;
-		display: none;
-	}
-	**/
+	/* css*/
 	::-webkit-datetime-edit { padding: 1em; }
 	::-webkit-datetime-edit-fields-wrapper { background: silver; }
 	::-webkit-datetime-edit-text { color: red; padding: 0 0.3em; }

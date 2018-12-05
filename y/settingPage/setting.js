@@ -1,5 +1,5 @@
 
-// popup alert
+// popup alerts
 
 function clearFunction() {
     var txt;
